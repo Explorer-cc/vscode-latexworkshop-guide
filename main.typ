@@ -36,14 +36,14 @@
 #set heading(numbering: "一.")
 
 #show link: it => {
-  set text(fill: red.darken(3%))
   text(
     size: 11pt, 
+    fill: red.darken(3%),
     font: (
-      (name: "Libertinus Sans", covers: "latin-in-cjk"), // 西文
-      "Noto Serif CJK SC" // 中文
+      (name: "Libertinus Sans", covers: "latin-in-cjk"),
+      "Noto Serif CJK SC"
     )
-  )[#it.dest]
+  )[#it]
 }
 
 #let example-code(width: 100%, height: auto, body) = {
@@ -68,9 +68,9 @@
     )
 }
 
-#align(center,text(size: 20pt)[*vscode+LaTeX Workshop+TeXLive配置指南*])
+#align(center,text(size: 20pt)[*Vscode+LaTeX Workshop+TeXLive配置指南*—v1.1])
 
-#align(right,text(size: 15pt)[Explorer])
+#align(right,text(size: 15pt)[Explorer #h(.5em) #datetime.today().display()])
 
 本文将从一名萌新的角度出发，介绍如何一步步顺利在vscode中配置LaTeX Workshop的设置，并顺利编译出你的第一份PDF文件. 
 
@@ -78,20 +78,20 @@
 
 可能有的人会说，作为萌新用户，并不需要掌握命令行编译，或者更有甚者看到需要在「一个黑色框中手动输入代码」就会觉得害怕. 事实上，这种看法在我看来是较为片面的，要想真正用好TeXLive，*必须先掌握「命令行编译」*.  
 
-此事在*优秀的安装教程*#link("install-latex-guide-zh-cn")[https://github.com/OsbertWang/install-latex-guide-zh-cn]的第一章中亦有记载，在顺利安装完TeXLive之后，首要的便是掌握「命令行编译」. 
+此事在*优秀的安装教程*#link("https://github.com/OsbertWang/install-latex-guide-zh-cn")[install-latex-guide-zh-cn]的第一章中亦有记载，在顺利安装完TeXLive之后，首要的便是掌握「命令行编译」. 
 
-首先相信每位读到本文的用户面前肯定已经打开了一个`.tex`文件，它可能是「2077年全国大学生数学竞赛模板」、或者是「广为流传的`elegantbook`系列模板」，如果你还没有配置好vscode的编译环境，请先*关闭这些较为复杂的模板*，从下面这个「最简单」的例子开始.  
+首先相信每位读到本文的用户面前肯定已经打开了一个`.tex`文件，它可能是「2077年全国大学生数学竞赛模板」、或者是「广为流传的#link("https://github.com/ElegantLaTeX/ElegantBook")[`elegantbook`系列模板]」，如果你还没有配置好vscode的编译环境，请先*关闭这些较为复杂的模板*，从下面这个「最简单」的例子开始.  
 
 *罗马不是一天建成的*，还没学走路就想飞，只会在配置的过程中遇到更多的问题，最终因为配置和 debug 极其麻烦而更容易打退堂鼓. 
 
 *工欲善其事，必先利其器. * 在这里有必要顺便强调一下「*编辑器*」和「*编译器*」的区别.  
 
-- *编辑器*（editor）只不过是用来「编辑文本」的，我们这里用到的`vscode`就是这样的工具，它并没有任何编译功能. 使用「`vscode`」编写程序和使用「记事本（`notepad`）」编写程序从其本质来看是没有任何区别的. 
+- *编辑器（editor）*只不过是用来「编辑文本」的，我们这里用到的`vscode`就是这样的工具，它并没有任何编译功能. 使用「`vscode`」编写程序和使用「记事本（`notepad`）」编写程序从其本质来看是没有任何区别的. 
 - *编译器（compiler）*才是真正用来「把代码转换成PDF」的工具. 这里我们使用的编译器是`TeXLive`，它是一个非常庞大的编译器集合，里面包含了各种各样的编译器. 注意，你大致可以把编译器理解为「可执行程序（e.g. `Genshin Impact.exe`）」，这类程序执行的时候，会按照其内部逻辑处理你的代码，并根据程序设定好的功能执行任务. 
 
 一言以蔽之，我们在这里要实现的，是用「vscode」作为代码*编辑器*来编写代码，并调用我们目标的*编译器*（这里是`TeXLive`中的`pdflatex.exe`、`luatex.exe`等），通过这些程序将我们编写的代码转换成目标的PDF文件. 
 
-如果你已经仔细阅读了#link("install-latex-guide-zh-cn")[https://github.com/OsbertWang/install-latex-guide-zh-cn]并且顺利安装了TeXLive，此时在终端中输入`xelatex -v`，理应看到类似如下的终端输出:  
+如果你已经仔细阅读了#link("https://github.com/OsbertWang/install-latex-guide-zh-cn")[install-latex-guide-zh-cn]并且顺利安装了TeXLive，此时在终端中输入`xelatex -v`，理应看到类似如下的终端输出:  
 
 #[
 #set par(leading: 0.75em, spacing: 1em)
@@ -118,17 +118,16 @@ Compiled with fontconfig version 2.15.0; using 2.15.0
 ```  
 ]
 
-
 废话有点多，我们先来用「命令行编译」第一个`.tex`文件: 
 
 首先在系统中的某处新建一个文件夹，并且右键新建一个`.tex`文件（可以新建一个文本文档，再将后缀名`.txt`修改为`.tex`）. 如果文件资源管理器默认没有显示后缀名，则自行通过搜索引擎检索如何调出来. 
-注意，虽然现在已经是2025年了，但还是*极其不建议*用户使用「中文文件名」、「带空格的路径」. 请用「`main.tex`」而不是「`我的模板 哈哈哈.tex`」. 后者既有中文，又有空格，真是*坏透了*. 然后在这个`.tex`所在的文件夹内，在空白区域处右键后点击「在终端中打开」或「通过`Code`打开」: 
+注意，虽然现在已经是2025年了，但还是*极其不建议*用户使用「中文文件名」、「带空格的路径」. 请用「`main.tex`」而不是「`我的模板 哈哈哈.tex`」. 后者既有中文，又有空格，真是*坏透了*. 之后在这个`.tex`所在的文件夹内，在空白区域处右键后点击「在终端中打开」或「通过`Code`打开」: 
 
 #example-image(width:100%,"open-terminal.png")
 
 如果找不到这两项，那么也请自行通过搜索引擎检索如何把它们调出来. 这里采用「通过Code打开」作为示例，如果你不能看到下方的「Terminal」面板，可以通过快捷键「Ctrl+\`」呼出. 
 
-并且把下面这一「最小工作示例」的「`Hello, World!`」文件复制进去：
+并且把下面这一「最小工作示例」的「`Hello, World!`」文件复制到`.tex`文件中：
 
 #example-code[
 ```latex
@@ -177,7 +176,7 @@ Hello, World!
 
 注意上图中圈出来的按钮，分别可以实现「选择不同的编译工具」、「快速编译」、「预览PDF文件」等功能. 当然，左侧边中还提供了形如「文件大纲结构」、「Snippet View快捷输入」等功能，这些留待读者自行探索. 
 
-你可能听说过需要配置一个名为`settings.json`的文件，但这是必须的吗？并不是，LaTeX Workshop贴心地提供了一份*默认*（现在已经并非默认，但作例子合适）的#link("tools")[https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-tools]和#link("recipes")[https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipes]配置: 
+你可能听说过需要配置一个名为`settings.json`的文件，但这是必须的吗？并不是，LaTeX Workshop贴心地提供了一份*默认*（现在已经并非默认，但作例子合适）的#link("https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-tools")[tools]和#link("https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipes")[recipes]配置: 
 
 #[
     #set par(leading: 0.75em, spacing: 1em)
@@ -270,9 +269,9 @@ Hello, World!
 ```bash
 pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 ```
-这里的`<filename>`，在*LW*中使用`%DOC%`来指代，更多替换规则详见这个#link("关于placeholder的wiki")[https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#placeholders]. 
+这里的`<filename>`，在*LW*中使用`%DOC%`来指代，更多替换规则详见这个#link("https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#placeholders")[关于placeholder的wiki]. 
 
-而所谓的*配方*(recipes)（我本人更喜欢翻译为*编译链路*），实际上只是多个tool的组合而已，同样举个例子: 
+而所谓的*配方*（recipes），我本人更喜欢翻译为*编译链路*），实际上只是多个tool的组合而已，同样举个例子: 
 #[
 #set par(leading: 0.75em, spacing: 1em)
 #set text(top-edge: "cap-height", bottom-edge: "baseline") 
@@ -303,7 +302,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 
 在这里，我想*邪恶地*留一个习题，如果能顺利做出来，那么以上的内容应该是完全掌握了. 
 
-在#link("MusixTeX宏包")[https://ctan.org/pkg/musixtex]中, 需要使用一种名为「three pass system」的编译方式:
+在#link("https://ctan.org/pkg/musixtex")[`MusixTeX`宏包]中, 需要使用一种名为「three pass system」的编译方式:
 
 #let (example, feature, variant, syntax) = frames(
   feature: ("Feature",),
@@ -372,7 +371,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 
 #example-image(width: 94.5%,"settings-panel.png")
 
-仔细观察我们还可以发现，在`settings.json`中的键值对和左侧TeX侧边栏面板中的按钮是*一一对应*的！既然如此，那么我们便可以心安理得的copy一些成熟的配置了（因为如果你已经理解了*LW*中的默认配置的含义，那么下面的这份配置也无非是换汤不换药罢了），在这里我比较推荐使用OsbertWang在#link("install-latex-guide-zh-cn")[https://github.com/OsbertWang/install-latex-guide-zh-cn]的附录B.4中提供的配置: 
+仔细观察我们还可以发现，在`settings.json`中的键值对和左侧TeX侧边栏面板中的按钮是*一一对应*的！既然如此，那么我们便可以心安理得的copy一些成熟的配置了（因为如果你已经理解了*LW*中的默认配置的含义，那么下面的这份配置也无非是换汤不换药罢了），在这里我比较推荐使用OsbertWang在#link("https://github.com/OsbertWang/install-latex-guide-zh-cn")[install-latex-guide-zh-cn]的附录B.4中提供的配置: 
 
 #example-code[
 #set par(leading: 0.75em, spacing: 1em)
@@ -424,7 +423,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 ```
 ]
 
-可能有仔细对照配置的读者会发现我把`latexmkxe`的编译链路移动到了`latexmkpdf`之前，这样做的原因是界面右上角的「绿色三角」按钮*默认*通过键值对`latex-workshop.latex.recipe.default="first"` (check #link("this wiki")[https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexrecipedefault])配置其行为执行在`latex-workshop.latex.recipes`列表的*第一个*编译链路，这样的设置对中文用户更加友好. 注意这里用户*需要严格按照`json`格式的语法要求*，把上述配置*以合适的结构*添加到`settings.json`中. 
+可能有仔细对照配置的读者会发现我把`latexmkxe`的编译链路移动到了`latexmkpdf`之前，这样做的原因是界面右上角的「绿色三角」按钮*默认*通过键值对`latex-workshop.latex.recipe.default="first"` (check #link("https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexrecipedefault")[this wiki])配置其行为执行在`latex-workshop.latex.recipes`列表的*第一个*编译链路，这样的设置对中文用户更加友好. 注意这里用户*需要严格按照`json`格式的语法要求*，把上述配置*以合适的结构*添加到`settings.json`中. 
 
 如果按上面的配置, 左侧边栏面板的编译链路将会变为:
 
@@ -440,17 +439,17 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 
 - *作为萌新用户在安装后如何进一步入门？*
 #feature[
-  阅读经典教程「#link("lshort-zh-cn")[https://ctan.org/pkg/lshort-zh-cn]」.]
+  阅读经典教程「#link("https://ctan.org/pkg/lshort-zh-cn")[lshort-zh-cn]」.]
 
 - *不同`tools`的差异以及该如何使用：*
 #feature[
-萌新用户读下来可能最分不清的是什么`pdftex`,`xelatex`,`bibtex`和`latexmk`分别是在叽里咕噜说啥呢？这里做一个省流. 但是仍然*强烈建议*阅读「#link("lshort-zh-cn")[https://ctan.org/pkg/lshort-zh-cn]」第一第二章的基础入门知识！
+萌新用户读下来可能最分不清的是什么`pdftex`,`xelatex`,`bibtex`和`latexmk`分别是在叽里咕噜说啥呢？这里做一个省流. 但是仍然*强烈建议*阅读「#link("https://ctan.org/pkg/lshort-zh-cn")[lshort-zh-cn]」第一第二章的基础入门知识！
 - `pdflatex`:主要用于编译西文文档、编译速度较快，*不支持*`fandol`和`ubuntu`等中文字库.
 - `xelatex`:目前比较普遍支持的中文的编译方式（这也是前文我推荐把`latexmkxe`置于`latexmkpdf`之前的原因）.
 - `lualatex`:另一种支持中文的编译方式，但是编译速度较慢。具有较强的可拓展性，允许在`LaTeX`中运行`lua`脚本，部分宏包（如`cloze`,`tkz-elements`和`luadraw`等）依赖于`lualatex`.
 - `bibtex`&`biber`:注意这是*两套完全不同*的参考文献后端处理程序，两者*(几乎)互不相容*，应该看代码中具体采用了哪种方式来引用参考文献进而选择对应的方法. *如果混用，将会报错*.
 - `pdf-bib-pdf-pdf`:一个非常常见的*编译链路*，要想编译好带「目录」、「超链接」、「参考文献」的一篇文档，`LaTeX`的工作流通常要求使用如上的编译链路，进行连续四次编译才可以得到正确的文档.
-- `latexmk`:一个*自动化的编译工具*，可以省去`pdf-bib-pdf-pdf`多步编译以及选择「`biber` or `bibtex`」的烦恼，这也是为何「#link("install-latex-guide-zh-cn")[https://github.com/OsbertWang/install-latex-guide-zh-cn]」只配置了基于「`latexmk`」的编译链路. 同时，LaTeX Workshop侧边栏的「*Clean up auxiliary files*」的功能，实际上也不过是「命令`latexmk -c`」的封装罢了.（要想进一步了解，请自行「`texdoc latexmk`」查阅文档）.
+- `latexmk`:一个*自动化的编译工具*，可以省去`pdf-bib-pdf-pdf`多步编译以及选择「`biber` or `bibtex`」的烦恼，这也是为何「#link("https://github.com/OsbertWang/install-latex-guide-zh-cn")[install-latex-guide-zh-cn]」只配置了基于「`latexmk`」的编译链路. 同时，LaTeX Workshop侧边栏的「*Clean up auxiliary files*」的功能，实际上也不过是「命令`latexmk -c`」的封装罢了.（要想进一步了解，请自行「`texdoc latexmk`」查阅文档）.
 ]
 
 - *遇到编译错误「`Recipe Terminated with error.`」如何排查?*
@@ -462,20 +461,20 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 - *遇到编译不成功，左下角出现「红色的 `×` 符号」但「Problems」面板中*没有任何报错信息*，如何排查错误原因?*
   
 #feature[
-首先要指出的是，「只提示 `x` 符号但不显示任何错误信息」是*LW*插件用户不友好的一种体现，或者说因为vscode的设计原因或者*LW*对错误信息的解析器不够完备导致的. 解决方法同上一条——「手动在命令行编译」，再根据终端回显信息判断问题所在. 有余力的话，可以在#link("LaTeX Workshop的issues区")[https://github.com/James-Yu/LaTeX-Workshop/issues]反馈，*争取让LW变得更好*！
+首先要指出的是，「只提示 `x` 符号但不显示任何错误信息」是*LW*插件用户不友好的一种体现，或者说因为vscode的设计原因或者*LW*对错误信息的解析器不够完备导致的. 解决方法同上一条——「手动在命令行编译」，再根据终端回显信息判断问题所在. 有余力的话，可以在#link("https://github.com/James-Yu/LaTeX-Workshop/issues")[LaTeX Workshop的issues区]反馈，*争取让LW变得更好*！
 ]
 
 - *使用「vscode+LaTeX Workshop」与「TeXStudio」方案的功能差异在哪？*
 
 #feature[
-  此事在「#link("install-latex-guide-zh-cn")[https://github.com/OsbertWang/install-latex-guide-zh-cn]」中亦有记载：
+  此事在「#link("https://github.com/OsbertWang/install-latex-guide-zh-cn")[install-latex-guide-zh-cn]」中亦有记载：
   #image("editors.png",width:90%)
 
 至于我个人的看法：
 - 「vscode+*L*#[]aTeX *W*#[]orkshop(*LW*)」的方案更倾向于*高度的自定义*(但*这也意味着更高一些的折腾成本*，而不总是能立刻开箱即用)，可以使用「vscode」更多样的插件或主题样式.
 - 「*T*#[]e#[]*X**S*#[]tudio(*TXS*)」更倾向于「功能更专一的LaTeX编辑器」的定位，*只用来编写LaTeX文档*，开箱即用，配置相对较为简单，且相比LW具有更多的可视化菜单栏按钮功能.
 
-以下是资深开发者 #link("myshia")[https://github.com/myhsia]的看法：
+以下是资深开发者 #link("https://github.com/myhsia")[myshia]的看法：
 
 个人觉得LW不仅是能完全替代TXS，甚至超越了TXS，代码补全做的很好的，连22年出的`physics2`包的自动补全都在规则内（而且是可配置的）. 因为LW开发者很活跃，bug修的很快（issues数量常年维持在个位数）. 而且可以配置一些你意想不到的编译序列（开发者用的多）.
 ]
@@ -505,7 +504,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 
 - *使用「vscode+LaTeX Workshop」如何实现自动编译？*
 #feature[
-    我本人并不觉得`LaTeX`需要这种「自动编译」...可以参考这个#link("文档")[https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexautobuildrun]
+    我本人并不觉得`LaTeX`需要这种「自动编译」...可以参考这个#link("https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexautobuildrun")[文档]
     通过下述配置实现：
     ```json
     "files.autoSave": "afterDelay", // Code自动保存配置
@@ -515,8 +514,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 
 - *设置遇到警告和错误时不显示「烦人的下划曲线」*
 #feature[
-    参考这个#link("链接")[https://stackoverflow.com/questions/43454967/disable-or-toggle-the-wavy-underline-squigglies-problems-in-vs-code/48610661#48610661]
-    通过下述配置透明颜色实现：
+    参考这个#link("https://stackoverflow.com/questions/43454967/disable-or-toggle-the-wavy-underline-squigglies-problems-in-vs-code/48610661#48610661")[链接]通过下述配置透明颜色实现：
     ```json
     "workbench.colorCustomizations": {
         "editorError.foreground":   "#00000000",
@@ -528,7 +526,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 
 - *设置不显示「烦人的`badbox`提示」*
 #feature[
-    参考这个#link("文档")[https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshopmessagebadboxshow]
+    参考这个#link("https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshopmessagebadboxshow")[文档]
     通过下述配置实现：
     ```json
     "latex-workshop.message.badbox.show": "none",
