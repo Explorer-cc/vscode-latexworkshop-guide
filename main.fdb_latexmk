@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1773645117.20632 "main.tex" "main.pdf" "main" 1773645138.46981 0
+["lualatex"] 1773646668.01119 "main.tex" "main.pdf" "main" 1773646684.94634 0
   "C:/Users/Kasmir/.texlive2026/texmf-var/luatexja/extra_gbzenkai-medium.luc" 1773644496 287847 4b6e9c924d75da47e1e5078ad05278a2 ""
   "C:/Users/Kasmir/.texlive2026/texmf-var/luatexja/extra_linbiolinumo.luc" 1773626475 52903 8e383c5d7f1fe03808c616f9e23cbefe ""
   "C:/Users/Kasmir/.texlive2026/texmf-var/luatexja/extra_linbiolinumob.luc" 1773626475 55527 8ffcf3137e56306ce9288bb6233eb17d ""
@@ -358,9 +358,9 @@
   "compiling.png" 1760360539 470709 50c5c044c9b9393adb6853448bbce30e ""
   "editors.png" 1766568251 157450 f2eead69a86239cd9968ef3dca7d66f4 ""
   "error-panel.png" 1760367336 725912 fcef91c570493a8a037316de7631bc02 ""
-  "main.aux" 1773645136 814 bc406d33d535a4f1165c517894b18331 "lualatex"
-  "main.out" 1773645136 498 d68060097a629afe81c62cad5a4e48a4 "lualatex"
-  "main.tex" 1773645114 30712 68b43281aa53a10e88ce32da26384b4b ""
+  "main.aux" 1773646683 814 5e3bd55552ed5291b96d111de217fdd7 "lualatex"
+  "main.out" 1773646683 498 d68060097a629afe81c62cad5a4e48a4 "lualatex"
+  "main.tex" 1773646652 30735 faeecef8ab9395f8fad6bf06fe760777 ""
   "open-terminal.png" 1760371661 82877 1e99dddceb1f32075e7415dba2b6a6fa ""
   "settings-config.png" 1760367047 144732 6a3433308fdf6278b4be564dfe798449 ""
   "settings-json.png" 1760365788 180906 3d26eb1d82ca4f1fdb8f289a1a602e5d ""

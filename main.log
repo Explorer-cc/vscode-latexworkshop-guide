@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.5)  16 MAR 2026 15:11
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.5)  16 MAR 2026 15:37
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2550,7 +2550,11 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 File: open-terminal.png Graphic file (type png)
 <use open-terminal.png>
 Package luatex.def Info: open-terminal.png  used on input line 171.
-(luatex.def)             Requested size: 483.69687pt x 260.31516pt.
+(luatex.def)             Requested size: 362.77264pt x 195.2409pt.
+Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
+de;script=latn;language=dflt;+tlig;+tnum;+onum;!
+Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
+de;script=latn;language=dflt;+tlig;+tnum;+onum;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.71603pt, for example:
@@ -2563,11 +2567,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[2]
-Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
-de;script=latn;language=dflt;+tlig;+tnum;+onum;!
-Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
-de;script=latn;language=dflt;+tlig;+tnum;+onum;!
+[2<./open-terminal.png>]
 (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -2602,11 +2602,20 @@ Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<vscode-terminal.png, id=68, 1045.40562pt x 595.22375pt>
+<vscode-terminal.png, id=69, 1045.40562pt x 595.22375pt>
 File: vscode-terminal.png Graphic file (type png)
 <use vscode-terminal.png>
-Package luatex.def Info: vscode-terminal.png  used on input line 190.
+Package luatex.def Info: vscode-terminal.png  used on input line 189.
 (luatex.def)             Requested size: 483.69687pt x 275.40474pt.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+<compiling.png, id=70, 1565.85pt x 1102.1175pt>
+File: compiling.png Graphic file (type png)
+<use compiling.png>
+Package luatex.def Info: compiling.png  used on input line 203.
+(luatex.def)             Requested size: 483.69687pt x 340.44208pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2623,35 +2632,12 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 [3
 Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
 de;script=latn;language=dflt;+tlig;+tnum;+onum;!
-<./open-terminal.png>]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<compiling.png, id=81, 1565.85pt x 1102.1175pt>
-File: compiling.png Graphic file (type png)
-<use compiling.png>
-Package luatex.def Info: compiling.png  used on input line 204.
-(luatex.def)             Requested size: 483.69687pt x 340.44208pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.71603pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.71603pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.71603pt}.
-
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
-
-[4<./vscode-terminal.png>]
+<./vscode-terminal.png>]
 2
-<LW-install.png, id=89, 1637.11626pt x 1142.2675pt>
+<LW-install.png, id=84, 1637.11626pt x 1142.2675pt>
 File: LW-install.png Graphic file (type png)
 <use LW-install.png>
-Package luatex.def Info: LW-install.png  used on input line 217.
+Package luatex.def Info: LW-install.png  used on input line 216.
 (luatex.def)             Requested size: 447.42107pt x 312.18114pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2665,17 +2651,17 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[5<./compiling.png>]
+[4<./compiling.png>]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 220.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 219.
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <10.95> n
 ot available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 220.
-<TeX-panel.png, id=95, 896.85063pt x 313.67188pt>
+nput line 219.
+<TeX-panel.png, id=90, 896.85063pt x 313.67188pt>
 File: TeX-panel.png Graphic file (type png)
 <use TeX-panel.png>
-Package luatex.def Info: TeX-panel.png  used on input line 223.
+Package luatex.def Info: TeX-panel.png  used on input line 222.
 (luatex.def)             Requested size: 459.51054pt x 160.7124pt.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
@@ -2692,11 +2678,37 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[6<./LW-install.png><./TeX-panel.png>]
+[5<./LW-install.png><./TeX-panel.png>]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.71603pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.71603pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.71603pt}.
+
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 38.22324pt, for example:
+(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+
+[6]
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
+Removing  `ltj.process_input_buffer' from `process_input_buffer'.
+Inserting `ltj.listings_unicode' in `process_input_buffer'.
+Inserting `ltj.process_input_buffer' in `process_input_buffer'.
+Removing  `ltj.listings_unicode' from `process_input_buffer'.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.71603pt, for example:
@@ -2710,45 +2722,19 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
 [7]
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.71603pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.71603pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.71603pt}.
-
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
-
-[8]
-Removing  `ltj.process_input_buffer' from `process_input_buffer'.
-Inserting `ltj.listings_unicode' in `process_input_buffer'.
-Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<settings-json.png, id=192, 1284.8pt x 630.85687pt>
+<settings-json.png, id=187, 1284.8pt x 630.85687pt>
 File: settings-json.png Graphic file (type png)
 <use settings-json.png>
-Package luatex.def Info: settings-json.png  used on input line 389.
+Package luatex.def Info: settings-json.png  used on input line 388.
 (luatex.def)             Requested size: 483.69687pt x 237.50447pt.
-<settings-panel.png, id=193, 627.84563pt x 590.70688pt>
+<settings-panel.png, id=188, 627.84563pt x 590.70688pt>
 File: settings-panel.png Graphic file (type png)
 <use settings-panel.png>
-Package luatex.def Info: settings-panel.png  used on input line 395.
+Package luatex.def Info: settings-panel.png  used on input line 394.
 (luatex.def)             Requested size: 457.09708pt x 430.05872pt.
 
 
@@ -2763,7 +2749,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[9<./settings-json.png>]
+[8<./settings-json.png>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -2779,19 +2765,19 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[10<./settings-panel.png>]
+[9<./settings-panel.png>]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Overfull \hbox (28.03676pt too wide) in paragraph at lines 447--448
+Overfull \hbox (28.03676pt too wide) in paragraph at lines 446--447
 |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 的 |原 |因 |是 |界 |面 |右 |上 |
 角 |的 [] |绿 |色 |三 |角 [] |按 |钮 |\LTJY3/NotoSerifCJKSC(1)/bx/n/10.
 95 默 |认 |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 通 |过 |键 |值 |对 \TU/lmt
 t/m/n/10.95 latex-workshop.latex.recipe.default="first"
  []
 
-<settings-config.png, id=226, 666.49pt x 575.14874pt>
+<settings-config.png, id=221, 666.49pt x 575.14874pt>
 File: settings-config.png Graphic file (type png)
 <use settings-config.png>
-Package luatex.def Info: settings-config.png  used on input line 452.
+Package luatex.def Info: settings-config.png  used on input line 451.
 (luatex.def)             Requested size: 483.69687pt x 417.41534pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2805,8 +2791,8 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[11]
-Overfull \hbox (18.45845pt too wide) in paragraph at lines 455--456
+[10]
+Overfull \hbox (18.45845pt too wide) in paragraph at lines 454--455
 []|\LTJY3/NotoSerifCJKSC(1)/bx/n/10.95 永 |远 |要 |牢 |记\TU/LinLibertine(
 0)/m/n/10.95 : |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 点 |击 \TU/LinLibertine(0)
 /m/n/10.95 La-TeX Work-shop |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 提 [] |的 [] 
@@ -2814,10 +2800,10 @@ Overfull \hbox (18.45845pt too wide) in paragraph at lines 455--456
 TU/LinLibertine(0)/m/n/10.95 : [] [] \TU/lmtt/b/n/10.95 settings.json
  []
 
-<error-panel.png, id=266, 2569.6pt x 1302.8675pt>
+<error-panel.png, id=260, 2569.6pt x 1302.8675pt>
 File: error-panel.png Graphic file (type png)
 <use error-panel.png>
-Package luatex.def Info: error-panel.png  used on input line 460.
+Package luatex.def Info: error-panel.png  used on input line 459.
 (luatex.def)             Requested size: 483.69687pt x 245.2413pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2831,16 +2817,16 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[12<./settings-config.png>]
+[11<./settings-config.png>]
 3
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 465.
+(Font)              scaled to size 12.0pt on input line 464.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 470.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 469.
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <12> not 
 available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 470.
+nput line 469.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.71603pt, for example:
@@ -2853,13 +2839,13 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[13<./error-panel.png>]
+[12<./error-panel.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 492.
-<editors.png, id=283, 422.07687pt x 258.9675pt>
+(Font)              <10.95> on input line 491.
+<editors.png, id=278, 422.07687pt x 258.9675pt>
 File: editors.png Graphic file (type png)
 <use editors.png>
-Package luatex.def Info: editors.png  used on input line 500.
+Package luatex.def Info: editors.png  used on input line 499.
 (luatex.def)             Requested size: 423.6243pt x 259.9231pt.
 
 
@@ -2874,7 +2860,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[14<./editors.png>]
+[13<./editors.png>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -2895,7 +2881,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[15]
+[14]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -2916,7 +2902,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 38.22324pt, for example:
 (fancyhdr)                \setlength{\footskip}{38.22324pt}.
 
-[16] (./main.aux)
+[15] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -2926,14 +2912,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41018 strings out of 476076
- 381515,1648299 words of node,token memory allocated
+ 41002 strings out of 476076
+ 381520,1648299 words of node,token memory allocated
  766 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 123 attribute, 56 glue_spe
 c, 17 attribute_list, 2 write, 6 user_defined, 1 pdf_action nodes
-   avail lists: 1:4,2:64528,3:1109,4:11858,5:3115,6:101,7:7473,8:57,9:10937,10:2
-1,11:486
- 62394 multiletter control sequences out of 65536+600000
+   avail lists: 1:4,2:65925,3:1069,4:11871,5:3109,6:101,7:7474,8:57,9:11021,10:2
+1,11:488
+ 62380 multiletter control sequences out of 65536+600000
  134 fonts using 323712759 bytes
  117i,17n,164p,1185b,1934s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/tex
@@ -2949,10 +2935,10 @@ f-dist/fonts/truetype/public/arphic-ttf/gkai00mp.ttf><c:/texlive/2026/texmf-dist
 1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on main.pdf (16 pages, 1828749 bytes).
+Output written on main.pdf (15 pages, 1824622 bytes).
 
-PDF statistics: 414 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
- 197 named destinations out of 1000 (max. 1048576)
+PDF statistics: 409 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 195 named destinations out of 1000 (max. 1048576)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
