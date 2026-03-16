@@ -6,46 +6,34 @@
     a4paper,
 ]{geometry}
 
-\usepackage[cachedir=.]{luadraw}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-% https://tex.stackexchange.com/a/760676/322482
-\begin{luacode*}
--- function do_cfoot()
---     local iteration = tex.count['c@page'] 
---     --https://tex.stackexchange.com/a/760670 (Jasper Habicht answer)
---     local g = graph:new{window={-5,5,-5,5},margin={0,0,0,0},size={2,2}}
---     local i = cpx.I
---     local rand = math.random
---     local A, B, C = 5*i, -5-5*i, 5-5*i -- triangle initial
---     local T, niv = {{A,B,C}}, iteration
---     for k = 1, niv do
---         T = concat( hom(T,0.5,A), hom(T,0.5,B), hom(T,0.5,C) )
---     end
---     for _,cp in ipairs(T) do
---         g:Filloptions("full", rgb(rand(),rand(),rand()))
---         g:Dpolyline(cp,true, "line width=0pt")
---     end
---     g:Sendtotex()
--- end
-function do_cfoot()
-    local n = tex.count['c@page']
-    local g = graph:new{window={-5,5,-5,5},margin={0,0,0,0},size={1.2,1.2}}
-    local steps = math.min(n, 30)
-    for k = 1, steps do
-        local col = palette(rainbow, k/steps)
-        g:Filloptions("full", col, 0.25)
-        g:Dpolyreg(0, 3.5, 6, "draw=none,opacity=0.5,rounded corners=.5pt")
-        g:Rotate(12)
-        g:Scale(0.93)
-    end
-    g:IDmatrix()
-    g:Dlabel("\\bfseries\\color{black} " .. n, 0, {pos="center",node_options="text=black,opacity=1"})
-    g:Sendtotex()
-end
-\end{luacode*}
-\cfoot{\directlua{do_cfoot()}}
-\fancypagestyle{plain}[fancy]{}
+\usepackage{framed}
+\newcommand\mybullet[1]{\noindent\textbullet\;\textbf{\large #1}}
+\AddToHook{env/leftbar/begin}{\par\setlength{\parindent}{0pt}}
+
+\pagestyle{plain}
+% \usepackage[cachedir=.]{luadraw}
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% % https://tex.stackexchange.com/a/760676/322482
+% \begin{luacode*}
+% function do_cfoot()
+%     local n = tex.count['c@page']
+%     local g = graph:new{window={-5,5,-5,5},margin={0,0,0,0},size={1.2,1.2}}
+%     local steps = math.min(n, 30)
+%     for k = 1, steps do
+%         local col = palette(rainbow, k/steps)
+%         g:Filloptions("full", col, 0.25)
+%         g:Dpolyreg(0, 3.5, 6, "draw=none,opacity=0.5,rounded corners=.5pt")
+%         g:Rotate(12)
+%         g:Scale(0.93)
+%     end
+%     g:IDmatrix()
+%     g:Dlabel("\\bfseries\\color{black} " .. n, 0, {pos="center",node_options="text=black,opacity=1"})
+%     g:Sendtotex()
+% end
+% \end{luacode*}
+% \cfoot{\directlua{do_cfoot()}}
+% \fancypagestyle{plain}[fancy]{}
 
 % https://github.com/OsbertWang/install-latex-guide-zh-cn/blob/master/install-latex-guide-zh-cn.tex#L3-L11
 \ctexset{
@@ -218,7 +206,7 @@ Compiled with fontconfig version 2.15.0; using 2.15.0
 
 并且把下面这一「最小工作示例」的「\texttt{Hello, World!}」文件复制到\texttt{.tex}文件中：
 
-\begin{examplecode}
+% \begin{examplecode}
 \begin{lstlisting}[language=TeX]
 \documentclass{ctexart}
 \begin{document}
@@ -227,7 +215,7 @@ Hello, World!
 你好, \LaTeX{}！
 \end{document}
 \end{lstlisting}
-\end{examplecode}
+% \end{examplecode}
 
 \begin{center}
   \includegraphics[width=\textwidth]{vscode-terminal.png}
@@ -368,7 +356,7 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
     }
 \end{lstlisting}
 
-这定义了一个名为「\texttt{pdflatex -> bibtex -> pdflatex * 2}」的\textbf{编译链路}（recipes），当你选择它时，\textbf{LW}会\textbf{先后}在终端帮助你自动依次执行四个工具「\texttt{pdflatex}」-「\texttt{bibtex}」-「\texttt{pdflatex}」-「\texttt{pdflatex}」，也即分别为:
+这定义了一个名为「\texttt{pdflatex -> bibtex -> pdflatex * 2}」的\textbf{编译链路}（recipes），当用户选择该编译链路时，\textbf{LW}会\textbf{先后}在终端帮助你自动依次执行四个工具「\texttt{pdflatex}」-「\texttt{bibtex}」-「\texttt{pdflatex}」-「\texttt{pdflatex}」，也即分别为:
 \begin{lstlisting}[language=bash]
 pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 bibtex <filename>.<extension> % 此处为何多了个「.<extension>」？留作习题:-)
@@ -376,46 +364,50 @@ pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 pdflatex -synctex=1 -interaction=nonstopmode -file-line-error <filename>
 \end{lstlisting}
 
-在这里，我想\textbf{邪恶地}留一个习题，如果能顺利做出来，那么以上的内容应该是完全掌握了.
+% 在这里，我想\textbf{邪恶地}留一个习题，如果能顺利做出来，那么以上的内容应当是完全掌握了.
 
-在\href{https://ctan.org/pkg/musixtex}{\texttt{MusixTeX}宏包}中, 需要使用一种名为「three pass system」的编译方式:
+% 在\href{https://ctan.org/pkg/musixtex}{\texttt{MusixTeX}宏包}中, 需要使用一种名为「three pass system」的编译方式:
 
-\begin{featurebox}
-To this end a three pass system was developed. To start the first pass on the file \texttt{jobname.tex}, you would enter \texttt{etex jobname}. Information about each bar is written to an external file named \texttt{jobname.mx1}. This file begins with a header containing parameters such as line width and paragraph indentation. Then the hard and scalable space is listed for each bar.
+% \begin{leftbar}
+% To this end a three pass system was developed. To start the first pass on the file \texttt{jobname.tex}, you would enter \texttt{etex jobname}. Information about each bar is written to an external file named \texttt{jobname.mx1}. This file begins with a header containing parameters such as line width and paragraph indentation. Then the hard and scalable space is listed for each bar.
 
-The second pass, which is started with \texttt{musixflx jobname}, determines optimal values of the basic spacing unit \texttt{\textbackslash elemskip} for each line, so as to properly fill each line, and to spread the piece nicely over an integral number of full lines. This routine was originally written in fortran rather than \texttt{TeX}, the main reason being the lack of an array handling capability in \texttt{TeX}; the current version of musixflx is a Lua script, which may be executed without compilation in any standard \texttt{TeX} system.
+% The second pass, which is started with \texttt{musixflx jobname}, determines optimal values of the basic spacing unit \texttt{\textbackslash elemskip} for each line, so as to properly fill each line, and to spread the piece nicely over an integral number of full lines. This routine was originally written in fortran rather than \texttt{TeX}, the main reason being the lack of an array handling capability in \texttt{TeX}; the current version of musixflx is a Lua script, which may be executed without compilation in any standard \texttt{TeX} system.
 
-\texttt{musixflx} reads in the file \texttt{jobname.mx1}, and writes its output to \texttt{jobname.mx2}. The latter file contains a single entry for each line of music in the reformatted output. The key piece of information is the revised value of \texttt{\textbackslash elemskip} for each line.
+% \texttt{musixflx} reads in the file \texttt{jobname.mx1}, and writes its output to \texttt{jobname.mx2}. The latter file contains a single entry for each line of music in the reformatted output. The key piece of information is the revised value of \texttt{\textbackslash elemskip} for each line.
 
-Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On this third pass, the \texttt{jobname.mx2} file is read in, and the information is used to physically define the final score and embed the page descriptions into a dvifile.
-\end{featurebox}
+% Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On this third pass, the \texttt{jobname.mx2} file is read in, and the information is used to physically define the final score and embed the page descriptions into a dvifile.
+% \end{leftbar}
 
-如果读者感兴趣，读到这里，有缘的话，应该可以\textbf{满怀激情}地写出类似如下的配置(doge):
-\begin{lstlisting}[language=bash]
-    "latex-workshop.latex.tools": [
-        ...,
-        {
-            "name": "musixflx",
-            "command": "musixflx",
-            "args": [
-                "%DOCFILE%.mx1"
-            ]
-        },
-        ...,
-    ]
-    "latex-workshop.latex.recipes": [
-        ...,
-        {
-            "name": "musixtex",
-            "tools": [
-                "pdflatex",
-                "musixflx",
-                "pdflatex"
-            ]
-        },
-        ...,
-    ]
-\end{lstlisting}
+%% Todo. 或者改一下这里的表述...
+
+% 如果读者感兴趣，读到这里，有缘的话，应该可以\textbf{满怀激情}地写出类似如下的配置(doge):
+% \begin{lstlisting}[language=bash]
+%     "latex-workshop.latex.tools": [
+%         ...,
+%         {
+%             "name": "musixflx",
+%             "command": "musixflx",
+%             "args": [
+%                 "%DOCFILE%.mx1"
+%             ]
+%         },
+%         ...,
+%     ]
+%     "latex-workshop.latex.recipes": [
+%         ...,
+%         {
+%             "name": "musixtex",
+%             "tools": [
+%                 "pdflatex",
+%                 "musixflx",
+%                 "pdflatex"
+%             ]
+%         },
+%         ...,
+%     ]
+% \end{lstlisting}
+
+%% Todo. 要不要留一个练习呢...
 
 下面我们来看如何配置这些\textbf{编译链路}，首先要按如下步骤打开「\texttt{settings.json}」的配置文件:
 \begin{enumerate}
@@ -436,7 +428,7 @@ Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On t
 
 仔细观察我们还可以发现，在\texttt{settings.json}中的键值对和左侧TeX侧边栏面板中的按钮是\textbf{一一对应}的！既然如此，那么我们便可以心安理得的copy一些成熟的配置了（因为如果你已经理解了\textbf{LW}中的默认配置的含义，那么下面的这份配置也无非是换汤不换药罢了），在这里我比较推荐使用OsbertWang在\href{https://github.com/OsbertWang/install-latex-guide-zh-cn}{install-latex-guide-zh-cn}的附录B.4中提供的配置:
 
-\begin{examplecode}
+% \begin{examplecode}
 \begin{lstlisting}[language=bash]
   "latex-workshop.latex.tools": [
     {
@@ -481,7 +473,7 @@ Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On t
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.view.pdf.viewer": "tab",
 \end{lstlisting}
-\end{examplecode}
+% \end{examplecode}
 
 可能有仔细对照配置的读者会发现我把\texttt{latexmkxe}的编译链路移动到了\texttt{latexmkpdf}之前，这样做的原因是界面右上角的「绿色三角」按钮\textbf{默认}通过键值对\texttt{latex-workshop.latex.recipe.default="first"} (check \href{https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexrecipedefault}{this wiki})配置其行为执行在\texttt{latex-workshop.latex.recipes}列表的\textbf{第一个}编译链路，这样的设置对中文用户更加友好. 注意这里用户\textbf{需要严格按照\texttt{json}格式的语法要求}，把上述配置\textbf{以合适的结构}添加到\texttt{settings.json}中.
 
@@ -501,14 +493,13 @@ Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On t
 
 \chapter{一些杂谈（Miscellaneous）}
 
-\begin{itemize}
-  \item \textbf{作为萌新用户在安装后如何进一步入门？}
-  \begin{featurebox}
+\mybullet{作为萌新用户在安装后如何进一步入门？}
+  \begin{leftbar}
     阅读经典教程「\href{https://ctan.org/pkg/lshort-zh-cn}{lshort-zh-cn}」.
-  \end{featurebox}
+  \end{leftbar}
 
-  \item \textbf{不同\texttt{tools}的差异以及该如何使用：}
-  \begin{featurebox}
+\mybullet{不同\texttt{tools}的差异以及该如何使用：}
+  \begin{leftbar}
     萌新用户读下来可能最分不清的是什么\texttt{pdftex}, \texttt{xelatex}, \texttt{bibtex}和\texttt{latexmk}分别是在叽里咕噜说啥呢？这里做一个省流. 但是仍然\textbf{强烈建议}阅读「\href{https://ctan.org/pkg/lshort-zh-cn}{lshort-zh-cn}」第一第二章的基础入门知识！
     \begin{itemize}
       \item \texttt{pdflatex}:主要用于编译西文文档、编译速度较快，\textbf{不支持}\texttt{fandol}和\texttt{ubuntu}等中文字库.
@@ -518,26 +509,26 @@ Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On t
       \item \texttt{pdf-bib-pdf-pdf}:一个非常常见的\textbf{编译链路}，要想编译好带「目录」、「超链接」、「参考文献」的一篇文档，\texttt{LaTeX}的工作流通常要求使用如上的编译链路，进行连续四次编译才可以得到正确的文档.
       \item \texttt{latexmk}:一个\textbf{自动化的编译工具}，可以省去\texttt{pdf-bib-pdf-pdf}多步编译以及选择「\texttt{biber} or \texttt{bibtex}」的烦恼，这也是为何「\href{https://github.com/OsbertWang/install-latex-guide-zh-cn}{install-latex-guide-zh-cn}」只配置了基于「\texttt{latexmk}」的编译链路. 同时，LaTeX Workshop侧边栏的「\textbf{Clean up auxiliary files}」的功能，实际上也不过是「命令\texttt{latexmk -c}」的封装罢了.（要想进一步了解，请自行「\texttt{texdoc latexmk}」查阅文档）.
     \end{itemize}
-  \end{featurebox}
+  \end{leftbar}
 
-  \item \textbf{遇到编译错误「\texttt{Recipe Terminated with error.}」如何排查?}
+\mybullet{遇到编译错误「\texttt{Recipe Terminated with error.}」如何排查?}
 
-  \begin{featurebox}
+  \begin{leftbar}
     要牢记「点击LaTeX Workshop提供的「绿色三角」按钮，其背后的行为等价于: \textbf{按照\texttt{settings.json}中的配置，自动在命令行帮你执行相应的编译命令}」. 既然报错信息提示编译链路中断，那么我们应该回归本源，通过在终端手动输入类似「\texttt{xelatex mwe.tex}」或者「\texttt{latexmk -pdflua mwe.tex}」的命令来调试，看看终端运行停下的位置提供了什么具体的信息进一步分析.
-  \end{featurebox}
+  \end{leftbar}
 
-  \item \textbf{遇到编译不成功，左下角出现「红色的 $\times$ 符号」但「Problems」面板中\textbf{没有任何报错信息}，如何排查错误原因?}
+\mybullet{遇到编译不成功，左下角出现「红色的 $\times$ 符号」但「Problems」面板中没有任何报错信息，如何排查错误原因?}
 
-  \begin{featurebox}
+  \begin{leftbar}
     首先要指出的是，「只提示 $\times$ 符号但不显示任何错误信息」是\textbf{LW}插件用户不友好的一种体现，或者说因为vscode的设计原因或者\textbf{LW}对错误信息的解析器不够完备导致的. 解决方法同上一条——「手动在命令行编译」，再根据终端回显信息判断问题所在. 有余力的话，可以在\href{https://github.com/James-Yu/LaTeX-Workshop/issues}{LaTeX Workshop的issues区}反馈，\textbf{争取让LW变得更好}！
-  \end{featurebox}
+  \end{leftbar}
 
-  \item \textbf{使用「vscode+LaTeX Workshop」与「TeXStudio」方案的功能差异在哪？}
+\mybullet{使用「vscode+LaTeX Workshop」与「TeXStudio」方案的功能差异在哪？}
 
-  \begin{featurebox}
+  \begin{leftbar}
     此事在「\href{https://github.com/OsbertWang/install-latex-guide-zh-cn}{install-latex-guide-zh-cn}」中亦有记载：
     \begin{center}
-      \includegraphics[width=0.9\textwidth]{editors.png}
+      \includegraphics[width=.9\textwidth]{editors.png}
     \end{center}
 
     至于我个人的看法：
@@ -548,17 +539,16 @@ Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On t
 
     以下是资深开发者 \href{https://github.com/myhsia}{myshia}的看法：
 
-    个人觉得LW不仅是能完全替代TXS，甚至超越了TXS，代码补全做的很好的，连22年出的\texttt{physics2}包的自动补全都在规则内（而且是可配置的）. 因为LW开发者很活跃，bug修的很快（issues数量常年维持在个位数）. 而且可以配置一些你意想不到的编译序列（开发者用的多）.
-  \end{featurebox}
+    个人觉得LW不仅是能完全替代TXS，甚至超越了TXS，代码补全做的很好，连22年出的\texttt{physics2}包的自动补全都在规则内（而且是可配置的）. 因为LW开发者很活跃，bug修的很快（issues数量常年维持在个位数）. 而且可以配置一些你意想不到的编译序列（开发者用的多）.
+  \end{leftbar}
 
-  \item \textbf{对编译选项\texttt{-interaction=nonstopmode}的看法}
+\mybullet{对编译选项\texttt{-interaction=nonstopmode}的看法}
+    \begin{leftbar}
+    该选项的作用是在编译过程中不因为报错而停下来，而是继续编译下去，最终在编译结束后再把所有的错误信息一次性输出出来. 这一选项设计的好处在于\textbf{避免了因为一个小错误而中断编译}，但坏处在于\textbf{可能会掩盖一些潜在的问题}。有些用户可能会觉得「即使有几个小错误也无伤大雅，只要能产生PDF即可」，这种想法我个人觉得是\textbf{不正确}的：任何一个有编译错误的文档，即使能碰巧产生PDF文件，但这个PDF文件也是不稳定的，其中必定有部分效果未能实现代码的预期功能。对于用户来说，\textbf{必定要改正错误}，放任错误不管很可能导致后续编译积重难返，最终不定时造成「\texttt{Fatal Error}」，连PDF都无法生成. 因此我不建议用户使用该选项，而上述编译链路的配置之所以使用该选项，是为了将所有错误一并呈现在「Problem」面板中.
+  \end{leftbar}
 
-  \begin{featurebox}
-    该选项的作用是在编译过程中不因为报错而停下来，而是继续编译下去，最终在编译结束后再把所有的错误信息一次性输出出来. 这一选项设计的好处在于\textbf{避免了因为一个小错误而中断编译}，但坏处在于\textbf{可能会掩盖一些潜在的问题}。有些用户可能会觉得「即使有几个小错误也无伤大雅，只要能产生PDF即可」，这种想法我个人觉得是\textbf{不正确}的：任何一个有编译错误的文档，即使能碰巧产生PDF文件，但这个PDF文件也是不稳定的，其中必定有部分效果未能实现代码的预期功能。对于用户来说，\textbf{必定要改正错误}，放任错误不管很可能导致后续编译积重难返，最终不定时造成「\texttt{Fatal Error}」，连PDF都无法生成.因此我不建议用户使用该选项，而上述编译链路的配置之所以使用该选项，是为了将所有错误一并呈现在「Problem」面板中.
-  \end{featurebox}
-
-  \item \textbf{什么时候需要使用编译选项「\texttt{-shell-escape}」？}
-  \begin{featurebox}
+\mybullet{什么时候需要使用编译选项「\texttt{-shell-escape}」？}
+  \begin{leftbar}
     有些编译过程依赖的宏包还需要额外调用系统命令，例如使用 \texttt{svg} 包就要求调用环境变量中的\texttt{inkscape}，因此需要在执行编译时添加参数\texttt{-shell-escape}. 具体到在\texttt{settings.json}中配置，只要直接在\texttt{"args"}参数中添加新的选项即可，例如：
     \begin{lstlisting}[language=bash]
     "latex-workshop.latex.tools": [
@@ -572,20 +562,20 @@ Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On t
       ]
     }]
     \end{lstlisting}
-  \end{featurebox}
+  \end{leftbar}
 
-  \item \textbf{使用「vscode+LaTeX Workshop」如何实现自动编译？}
-  \begin{featurebox}
+\mybullet{使用「vscode+LaTeX Workshop」如何实现自动编译？}
+  \begin{leftbar}
     我本人并不觉得\texttt{LaTeX}需要这种「自动编译」...可以参考这个\href{https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexautobuildrun}{文档}
     通过下述配置实现：
     \begin{lstlisting}[language=json]
     "files.autoSave": "afterDelay", // Code自动保存配置
     "latex-workshop.latex.autoBuild.run": "onFileChange",
     \end{lstlisting}
-  \end{featurebox}
+  \end{leftbar}
 
-  \item \textbf{设置遇到警告和错误时不显示「烦人的下划曲线」}
-  \begin{featurebox}
+\mybullet{设置遇到警告和错误时不显示「烦人的下划曲线」}
+  \begin{leftbar}
     参考这个\href{https://stackoverflow.com/questions/43454967/disable-or-toggle-the-wavy-underline-squigglies-problems-in-vs-code/48610661#48610661}{链接}通过下述配置透明颜色实现：
     \begin{lstlisting}[language=bash]
     "workbench.colorCustomizations": {
@@ -594,17 +584,15 @@ Next, the file is \texttt{TeX}-ed again, by entering \texttt{etex jobname}. On t
         "editorInfo.foreground":    "#00000000"
     }
     \end{lstlisting}
-  \end{featurebox}
+  \end{leftbar}
 
-  \item \textbf{设置不显示「烦人的\texttt{badbox}提示」}
-  \begin{featurebox}
+\mybullet{设置不显示「烦人的\texttt{badbox}提示」}
+  \begin{leftbar}
     参考这个\href{https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshopmessagebadboxshow}{文档}
     通过下述配置实现：
     \begin{lstlisting}[language=bash]
     "latex-workshop.message.badbox.show": "none",
     \end{lstlisting}
-  \end{featurebox}
-
-\end{itemize}
+  \end{leftbar}
 
 \end{document}
