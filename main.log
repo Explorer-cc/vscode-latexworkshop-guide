@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.19)  20 APR 2026 21:44
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.19)  20 APR 2026 21:55
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2163,8 +2163,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip69
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 59.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 61.
 
 (c:/texlive/2026/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count347
@@ -2231,41 +2231,41 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count356
 \enitdp@description=\count357
 )
-LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 115.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `normal'
 (Font)                  LTJY3/song/m/n --> LTJY3/NotoSerifCJKSC(0)/m/n on input
- line 113.
+ line 115.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/song/b/n --> LTJY3/NotoSerifCJKSC(0)/m/n on input
- line 113.
+ line 115.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/NotoSerifCJKSC(0)/m/n --> LTJY3/NotoSerifCJKSC(0)
-/b/n on input line 113.
+/b/n on input line 115.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -2273,67 +2273,67 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 113.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 113.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 113.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 113.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 113.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 113.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 113.
-LaTeX Font Info:    Redeclaring math accent \check on input line 113.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 113.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 113.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 113.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 113.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 115.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 115.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 115.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 115.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 115.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 115.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 115.
+LaTeX Font Info:    Redeclaring math accent \check on input line 115.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 115.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 115.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 115.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 115.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 113.
+(Font)              `operators' in the math version `normal' on input line 115.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LinLibertine(0)/m/n on input line 11
-3.
+5.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 113.
+(Font)              `operators' in the math version `bold' on input line 115.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/m/n on input line 1
-13.
+15.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/m/n on in
-put line 113.
+put line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LinLibertine(0)/m/it on input line 
-113.
+115.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/b/n on input line 1
-13.
+15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LinBiolinum(0)/m/n on input line 11
-3.
+5.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 113.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 115.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/b/n on in
-put line 113.
+put line 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/LinLibertine(0)/b/it on input line
- 113.
+ 115.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LinBiolinum(0)/b/n on input line 1
-13.
+15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 113.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 115.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2391,7 +2391,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 113.
+Package hyperref Info: Link coloring ON on input line 115.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -2399,45 +2399,45 @@ Package hyperref Info: Link coloring ON on input line 113.
 \openout5 = main.out
 \c@lstlisting=\count364
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 123.
+(Font)              scaled to size 17.28pt on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 123.
+(Font)              scaled to size 20.74pt on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 123.
+(Font)              scaled to size 20.74pt on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 123.
+(Font)              scaled to size 14.4pt on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 123.
+(Font)              scaled to size 12.0pt on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 123.
+(Font)              <20.74> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 123.
+(Font)              <14.4> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 123.
+(Font)              <12> on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 123.
+(Font)              scaled to size 10.0pt on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 123.
+(Font)              scaled to size 7.0pt on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 123.
+(Font)              <7> on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 123.
+(Font)              scaled to size 8.0pt on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 123.
+(Font)              scaled to size 6.0pt on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 123.
+(Font)              <8> on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 123.
+(Font)              <6> on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 123.
+(Font)              scaled to size 14.4pt on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 123.
+(Font)              scaled to size 5.0pt on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 123.
+(Font)              <5> on input line 125.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 123.
+(Font)              scaled to size 9.0pt on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 123.
+(Font)              <9> on input line 125.
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "Noto Serif CJK SC/BI" (it
@@ -2469,17 +2469,17 @@ iao;"
 (load cache: extra_lmmono9-regular.luc)
 1
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 128.
+(Font)              scaled to size 10.95pt on input line 130.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10.95> not av
 ailable
 (Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input
- line 145.
+ line 147.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 145.
+(Font)              scaled to size 10.95pt on input line 147.
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(0)/m/sl' in size <10.95> n
 ot available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(0)/m/it' tried instead on 
-input line 145.
+input line 147.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.71603pt, for example:
@@ -2488,16 +2488,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.71603pt}.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 145.
+(Font)              <10.95> on input line 147.
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 36.80052pt, for example:
-(fancyhdr)                \setlength{\footskip}{36.80052pt}.
+(fancyhdr)                Make it at least 34.08104pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.08104pt}.
 
 [1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (11.19592pt too wide) in paragraph at lines 145--146
+Overfull \hbox (11.19592pt too wide) in paragraph at lines 147--148
 []|\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 如 |果 |你 |已 |经 |仔 |细 |阅 |
 读 |了 [][]\TU/LinLibertine(0)/m/n/10.95 install-latex-guide-zh-cn[][] |\LTJY
 3/NotoSerifCJKSC(1)/m/n/10.95 并 |且 |顺 |利 |安 |装 |了 \TU/LinLibertin
@@ -2510,17 +2510,17 @@ Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.(load cache: extr
 a_lmmono8-regular.luc)
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 156.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 158.
 (load cache: extra_lmmonolt10-bold.luc)
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <10> not 
 available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 156.
+nput line 158.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 <./figures/open-terminal.png, id=41, 1104.125pt x 594.22pt>
 File: ./figures/open-terminal.png Graphic file (type png)
 <use ./figures/open-terminal.png>
-Package luatex.def Info: ./figures/open-terminal.png  used on input line 175.
+Package luatex.def Info: ./figures/open-terminal.png  used on input line 177.
 (luatex.def)             Requested size: 362.77264pt x 195.2409pt.
 Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
 de;script=latn;language=dflt;+tlig;+tnum;+onum;!
@@ -2535,8 +2535,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 35.6626pt, for example:
-(fancyhdr)                \setlength{\footskip}{35.6626pt}.
+(fancyhdr)                Make it at least 37.51187pt, for example:
+(fancyhdr)                \setlength{\footskip}{37.51187pt}.
 
 [2<./figures/open-terminal.png>]
 (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2576,7 +2576,7 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 <./figures/vscode-terminal.png, id=69, 1045.40562pt x 595.22375pt>
 File: ./figures/vscode-terminal.png Graphic file (type png)
 <use ./figures/vscode-terminal.png>
-Package luatex.def Info: ./figures/vscode-terminal.png  used on input line 193.
+Package luatex.def Info: ./figures/vscode-terminal.png  used on input line 195.
 
 (luatex.def)             Requested size: 483.69687pt x 275.40474pt.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
@@ -2586,7 +2586,7 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 <./figures/compiling.png, id=70, 1565.85pt x 1102.1175pt>
 File: ./figures/compiling.png Graphic file (type png)
 <use ./figures/compiling.png>
-Package luatex.def Info: ./figures/compiling.png  used on input line 207.
+Package luatex.def Info: ./figures/compiling.png  used on input line 209.
 (luatex.def)             Requested size: 483.69687pt x 340.44208pt.
 
 
@@ -2598,8 +2598,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 40.21492pt, for example:
-(fancyhdr)                \setlength{\footskip}{40.21492pt}.
+(fancyhdr)                Make it at least 38.32973pt, for example:
+(fancyhdr)                \setlength{\footskip}{38.32973pt}.
 
 [3
 Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
@@ -2609,7 +2609,7 @@ de;script=latn;language=dflt;+tlig;+tnum;+onum;!
 <./figures/LW-install.png, id=84, 1637.11626pt x 1142.2675pt>
 File: ./figures/LW-install.png Graphic file (type png)
 <use ./figures/LW-install.png>
-Package luatex.def Info: ./figures/LW-install.png  used on input line 220.
+Package luatex.def Info: ./figures/LW-install.png  used on input line 222.
 (luatex.def)             Requested size: 447.42107pt x 312.18114pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2620,20 +2620,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 44.97292pt, for example:
-(fancyhdr)                \setlength{\footskip}{44.97292pt}.
+(fancyhdr)                Make it at least 37.51187pt, for example:
+(fancyhdr)                \setlength{\footskip}{37.51187pt}.
 
 [4<./figures/compiling.png>]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 223.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 225.
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <10.95> n
 ot available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 223.
+nput line 225.
 <./figures/TeX-panel.png, id=90, 896.85063pt x 313.67188pt>
 File: ./figures/TeX-panel.png Graphic file (type png)
 <use ./figures/TeX-panel.png>
-Package luatex.def Info: ./figures/TeX-panel.png  used on input line 226.
+Package luatex.def Info: ./figures/TeX-panel.png  used on input line 228.
 (luatex.def)             Requested size: 459.51054pt x 160.7124pt.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
@@ -2647,8 +2647,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 43.39862pt, for example:
-(fancyhdr)                \setlength{\footskip}{43.39862pt}.
+(fancyhdr)                Make it at least 40.6417pt, for example:
+(fancyhdr)                \setlength{\footskip}{40.6417pt}.
 
 [5<./figures/LW-install.png><./figures/TeX-panel.png>]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
@@ -2698,15 +2698,15 @@ Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<./figures/settings-json.png, id=188, 1284.8pt x 630.85687pt>
+<./figures/settings-json.png, id=187, 1284.8pt x 630.85687pt>
 File: ./figures/settings-json.png Graphic file (type png)
 <use ./figures/settings-json.png>
-Package luatex.def Info: ./figures/settings-json.png  used on input line 392.
+Package luatex.def Info: ./figures/settings-json.png  used on input line 394.
 (luatex.def)             Requested size: 483.69687pt x 237.50447pt.
-<./figures/settings-panel.png, id=189, 627.84563pt x 590.70688pt>
+<./figures/settings-panel.png, id=188, 627.84563pt x 590.70688pt>
 File: ./figures/settings-panel.png Graphic file (type png)
 <use ./figures/settings-panel.png>
-Package luatex.def Info: ./figures/settings-panel.png  used on input line 398.
+Package luatex.def Info: ./figures/settings-panel.png  used on input line 400.
 (luatex.def)             Requested size: 457.09708pt x 430.05872pt.
 
 
@@ -2718,8 +2718,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 35.40337pt, for example:
-(fancyhdr)                \setlength{\footskip}{35.40337pt}.
+(fancyhdr)                Make it at least 34.96082pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.96082pt}.
 
 [8<./figures/settings-json.png>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
@@ -2734,22 +2734,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 36.17468pt, for example:
-(fancyhdr)                \setlength{\footskip}{36.17468pt}.
+(fancyhdr)                Make it at least 35.91722pt, for example:
+(fancyhdr)                \setlength{\footskip}{35.91722pt}.
 
 [9<./figures/settings-panel.png>]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Overfull \hbox (28.03676pt too wide) in paragraph at lines 450--451
+Overfull \hbox (28.03676pt too wide) in paragraph at lines 452--453
 |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 的 |原 |因 |是 |界 |面 |右 |上 |
 角 |的 [] |绿 |色 |三 |角 [] |按 |钮 |\LTJY3/NotoSerifCJKSC(1)/bx/n/10.
 95 默 |认 |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 通 |过 |键 |值 |对 \TU/lmt
 t/m/n/10.95 latex-workshop.latex.recipe.default="first"
  []
 
-<./figures/settings-config.png, id=222, 666.49pt x 575.14874pt>
+<./figures/settings-config.png, id=221, 666.49pt x 575.14874pt>
 File: ./figures/settings-config.png Graphic file (type png)
 <use ./figures/settings-config.png>
-Package luatex.def Info: ./figures/settings-config.png  used on input line 455.
+Package luatex.def Info: ./figures/settings-config.png  used on input line 457.
 
 (luatex.def)             Requested size: 483.69687pt x 417.41534pt.
 
@@ -2761,11 +2761,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 44.97292pt, for example:
-(fancyhdr)                \setlength{\footskip}{44.97292pt}.
+(fancyhdr)                Make it at least 36.45341pt, for example:
+(fancyhdr)                \setlength{\footskip}{36.45341pt}.
 
 [10]
-Overfull \hbox (18.45845pt too wide) in paragraph at lines 458--459
+Overfull \hbox (18.45845pt too wide) in paragraph at lines 460--461
 []|\LTJY3/NotoSerifCJKSC(1)/bx/n/10.95 永 |远 |要 |牢 |记\TU/LinLibertine(
 0)/m/n/10.95 : |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 点 |击 \TU/LinLibertine(0)
 /m/n/10.95 La-TeX Work-shop |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 提 [] |的 [] 
@@ -2773,33 +2773,11 @@ Overfull \hbox (18.45845pt too wide) in paragraph at lines 458--459
 TU/LinLibertine(0)/m/n/10.95 : [] [] \TU/lmtt/b/n/10.95 settings.json
  []
 
-<./figures/error-panel.png, id=261, 2569.6pt x 1302.8675pt>
+<./figures/error-panel.png, id=260, 2569.6pt x 1302.8675pt>
 File: ./figures/error-panel.png Graphic file (type png)
 <use ./figures/error-panel.png>
-Package luatex.def Info: ./figures/error-panel.png  used on input line 463.
+Package luatex.def Info: ./figures/error-panel.png  used on input line 465.
 (luatex.def)             Requested size: 483.69687pt x 245.2413pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.71603pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.71603pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.71603pt}.
-
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 35.40337pt, for example:
-(fancyhdr)                \setlength{\footskip}{35.40337pt}.
-
-[11<./figures/settings-config.png>]
-3
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 468.
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 473.
-LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <12> not 
-available
-(Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 473.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.71603pt, for example:
@@ -2812,11 +2790,33 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 35.04355pt, for example:
 (fancyhdr)                \setlength{\footskip}{35.04355pt}.
 
+[11<./figures/settings-config.png>]
+3
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 470.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 475.
+LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <12> not 
+available
+(Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
+nput line 475.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.71603pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.71603pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.71603pt}.
+
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 36.17468pt, for example:
+(fancyhdr)                \setlength{\footskip}{36.17468pt}.
+
 [12<./figures/error-panel.png>]
-<./figures/editors.png, id=279, 422.07687pt x 258.9675pt>
+<./figures/editors.png, id=278, 422.07687pt x 258.9675pt>
 File: ./figures/editors.png Graphic file (type png)
 <use ./figures/editors.png>
-Package luatex.def Info: ./figures/editors.png  used on input line 503.
+Package luatex.def Info: ./figures/editors.png  used on input line 505.
 (luatex.def)             Requested size: 423.6243pt x 259.9231pt.
 
 
@@ -2828,8 +2828,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 35.93875pt, for example:
-(fancyhdr)                \setlength{\footskip}{35.93875pt}.
+(fancyhdr)                Make it at least 36.17468pt, for example:
+(fancyhdr)                \setlength{\footskip}{36.17468pt}.
 
 [13<./figures/editors.png>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
@@ -2849,8 +2849,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 43.39862pt, for example:
-(fancyhdr)                \setlength{\footskip}{43.39862pt}.
+(fancyhdr)                Make it at least 36.08937pt, for example:
+(fancyhdr)                \setlength{\footskip}{36.08937pt}.
 
 [14]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
@@ -2870,8 +2870,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 40.04712pt, for example:
-(fancyhdr)                \setlength{\footskip}{40.04712pt}.
+(fancyhdr)                Make it at least 35.93875pt, for example:
+(fancyhdr)                \setlength{\footskip}{35.93875pt}.
 
 [15] (./main.aux)
  ***********
@@ -2883,16 +2883,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41859 strings out of 475900
- 381532,1648299 words of node,token memory allocated
+ 41851 strings out of 475900
+ 381520,1648299 words of node,token memory allocated
  766 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 123 attribute, 56 glue_spe
 c, 17 attribute_list, 2 write, 6 user_defined, 1 pdf_action nodes
-   avail lists: 1:6,2:72018,3:1168,4:11987,5:3109,6:101,7:7657,8:58,9:11045,10:2
+   avail lists: 1:5,2:71478,3:1219,4:11975,5:3109,6:101,7:7687,8:57,9:11045,10:2
 1,11:488
- 63417 multiletter control sequences out of 65536+600000
+ 63409 multiletter control sequences out of 65536+600000
  134 fonts using 323712759 bytes
- 102i,19n,164p,7110b,2072s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,19n,164p,7110b,1998s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/tex
 live/2026/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf><c:/texlive/20
 26/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf><c:/texlive/2026/texm
@@ -2906,10 +2906,10 @@ f-dist/fonts/truetype/public/arphic-ttf/gkai00mp.ttf><c:/texlive/2026/texmf-dist
 1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on main.pdf (15 pages, 1828682 bytes).
+Output written on main.pdf (15 pages, 1833445 bytes).
 
-PDF statistics: 410 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 409 PDF objects out of 1000 (max. 8388607)
  334 compressed objects within 4 object streams
  195 named destinations out of 1000 (max. 1048576)
- 45 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
