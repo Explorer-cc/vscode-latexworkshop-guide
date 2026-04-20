@@ -10,29 +10,34 @@
 \newcommand\mybullet[1]{\noindent\textbullet\;\textbf{\large #1}}
 \AddToHook{env/leftbar/begin}{\par\setlength{\parindent}{0pt}}
 
+\usepackage{tikz}
+\usetikzlibrary{ducks}
 % \pagestyle{plain}
-\usepackage[cachedir=.]{luadraw}
+% \usepackage[cachedir=.]{luadraw}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 % https://tex.stackexchange.com/a/760676/322482
-\begin{luacode*}
-function do_cfoot()
-    local n = tex.count['c@page']
-    local g = graph:new{window={-5,5,-5,5},margin={0,0,0,0},size={1.2,1.2}}
-    local steps = math.min(n, 30)
-    for k = 1, steps do
-        local col = palette(rainbow, k/steps)
-        g:Filloptions("full", col, 0.25)
-        g:Dpolyreg(0, 3.5, 6, "draw=none,opacity=0.5,rounded corners=.5pt")
-        g:Rotate(12)
-        g:Scale(0.93)
-    end
-    g:IDmatrix()
-    g:Dlabel("\\bfseries\\color{black} " .. n, 0, {pos="center",node_options="text=black,opacity=1"})
-    g:Sendtotex()
-end
-\end{luacode*}
-\cfoot{\directlua{do_cfoot()}}
+% \begin{luacode*}
+% function do_cfoot()
+%     local n = tex.count['c@page']
+%     local g = graph:new{window={-5,5,-5,5},margin={0,0,0,0},size={1.2,1.2}}
+%     local steps = math.min(n, 30)
+%     for k = 1, steps do
+%         local col = palette(rainbow, k/steps)
+%         g:Filloptions("full", col, 0.25)
+%         g:Dpolyreg(0, 3.5, 6, "draw=none,opacity=0.5,rounded corners=.5pt")
+%         g:Rotate(12)
+%         g:Scale(0.93)
+%     end
+%     g:IDmatrix()
+%     g:Dlabel("\\bfseries\\color{black} " .. n, 0, {pos="center",node_options="text=black,opacity=1"})
+%     g:Sendtotex()
+% end
+% \end{luacode*}
+% \cfoot{\directlua{do_cfoot()}}
+
+% https://tex.stackexchange.com/a/762054/322482
+\cfoot{\tikz\pic[scale=.5,duck/randomhead,duck/randomaccessories,duck/signback=white,duck/signpost={\parbox{6cm}\centering\color{black}\bfseries\thepage}] {duck};}
 \fancypagestyle{plain}[fancy]{}
 
 \ctexset{
@@ -56,6 +61,7 @@ end
 }
 
 \usepackage{graphicx}
+\graphicspath{{./figures/}}
 
 \usepackage{listings}
 \lstset{
@@ -112,7 +118,7 @@ end
 \renewcommand*{\@fnsymbol}[1]{\ensuremath{\number#1}}
 \makeatother
 \title{\huge\bfseries Vscode+LaTeX Workshop+TeXLive配置指南\thanks{\url{https://github.com/Explorer-cc/vscode-latexworkshop-guide}}}
-\author{\Large\bfseries Explorer\thanks{\href{mailto:ranwang.osbert@outlook.com}{\texttt{Explorer\_live@yeah.net}}}}
+\author{\Large\bfseries Explorer\thanks{\href{mailto:Explorer\_live@yeah.net}{\texttt{Explorer\_live@yeah.net}}}}
 \date{\Large \today}
 
 \maketitle

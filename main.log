@@ -1,9 +1,9 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.3.5)  16 MAR 2026 15:37
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.19)  20 APR 2026 21:44
  restricted system commands enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
+L3 programming layer <2026-03-20>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
@@ -45,10 +45,10 @@ dist/tex/latex/ctex/ctexrep.cls
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
 (c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
+Package: expl3 2026-03-20 L3 programming layer (loader) 
 
 (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+File: l3backend-luatex.def 2026-02-18 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count273
 Inserting `l3color' in `luaotfload.parse_color'.))
 Document Class: ctexrep 2022/07/14 v2.5.10 Chinese adapter for class report (CT
@@ -323,7 +323,7 @@ t line 194.
 ))
 \l__ctex_tmp_int=\count274
 \l__ctex_tmp_box=\box53
-\l__ctex_tmp_dim=\dimen147
+\l__ctex_tmp_dim=\dimen149
 \g__ctex_section_depth_int=\count275
 \g__ctex_font_size_int=\count276
 \g__cctab_next_cctab=\catcodetable15
@@ -348,7 +348,7 @@ ex-cache/generic/names/luaotfload-names.luc.gz)
 \c@table=\count285
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen150
 )
 (c:/texlive/2026/texmf-dist/tex/latex/ctex/engine/ctex-engine-luatex.def
 File: ctex-engine-luatex.def 2022/07/14 v2.5.10 LuaLaTeX adapter (CTEX)
@@ -418,9 +418,9 @@ X primitives.
 \everycr=\toks26
 )
 \ltjlineendcomment=\count289
-\ltj@dimen@zw=\dimen149
-\ltj@dimen@zh=\dimen150
-\ltj@dimen@jQ=\dimen151
+\ltj@dimen@zw=\dimen151
+\ltj@dimen@zh=\dimen152
+\ltj@dimen@jQ=\dimen153
 \ltj@icflag=\attribute4
 \ltj@curjfnt=\attribute5
 \ltj@curtfnt=\attribute6
@@ -437,7 +437,7 @@ X primitives.
 \ltj@dir=\attribute17
 \ltj@@japanese=\language2
 \ltj@tempcnta=\count290
-\ltj@tempdima=\dimen152
+\ltj@tempdima=\dimen154
 \ltj@@stack=\count291
 \ltj@@group@level=\count292
 \ltj@kcat0=\attribute18
@@ -608,9 +608,9 @@ eX
 \l__fontspec_emdef_int=\count305
 \l__fontspec_strong_int=\count306
 \l__fontspec_strongdef_int=\count307
-\l__fontspec_tmpa_dim=\dimen153
-\l__fontspec_tmpb_dim=\dimen154
-\l__fontspec_tmpc_dim=\dimen155
+\l__fontspec_tmpa_dim=\dimen155
+\l__fontspec_tmpb_dim=\dimen156
+\l__fontspec_tmpc_dim=\dimen157
 
 (c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
@@ -943,16 +943,16 @@ Lua function ctex_ltj_zero_globaldefs: = 69
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/song/m/n --> LTJY3/song/b/n on input line 471.
 \g__ctex_ltj_family_int=\count308
-\ccwd=\dimen156
+\ccwd=\dimen158
 \l__ctex_ccglue_skip=\skip51
 (load cache: ltj-cid-auto-adobe-gb1.luc)
 (c:/texlive/2026/texmf-dist/tex/luatex/chinese-jfm/jfm-zh_CN.lua)
 \l__ctex_xkanjiskip_skip=\skip52
-\cht=\dimen157
-\cdp=\dimen158
-\cwd=\dimen159
+\cht=\dimen159
+\cdp=\dimen160
+\cwd=\dimen161
 Lua function ctex_update_kanjisize: = 70)
-\l__ctex_ziju_dim=\dimen160
+\l__ctex_ziju_dim=\dimen162
 
 (c:/texlive/2026/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
@@ -1682,7 +1682,7 @@ LaTeX Info: Redefining \liningnums on input line 476.
 LaTeX Info: Redefining \textsup on input line 552.
 )
 (c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+Package: geometry 2026/03/07 v6.0 Page Geometry
 
 (c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -1690,14 +1690,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count311
 \Gm@cntv=\count312
 \c@Gm@tempcnt=\count313
-\Gm@bindingoffset=\dimen161
-\Gm@wd@mp=\dimen162
-\Gm@odd@mp=\dimen163
-\Gm@even@mp=\dimen164
-\Gm@layoutwidth=\dimen165
-\Gm@layoutheight=\dimen166
-\Gm@layouthoffset=\dimen167
-\Gm@layoutvoffset=\dimen168
+\Gm@bindingoffset=\dimen163
+\Gm@wd@mp=\dimen164
+\Gm@odd@mp=\dimen165
+\Gm@even@mp=\dimen166
+\Gm@layoutwidth=\dimen167
+\Gm@layoutheight=\dimen168
+\Gm@layouthoffset=\dimen169
+\Gm@layoutvoffset=\dimen170
 \Gm@dimlist=\toks27
 )
 (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -1728,33 +1728,18 @@ File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
 (c:/texlive/2026/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip54
-\fb@frw=\dimen169
-\fb@frh=\dimen170
-\FrameRule=\dimen171
-\FrameSep=\dimen172
-)
-(c:/texlive/texmf-local/tex/lualatex/luadraw/luadraw.sty
-Package: luadraw 2026/03/12 version 2.7, provides luadraw environment for drawi
-ng with lua
-
-(c:/texlive/2026/texmf-dist/tex/lualatex/luacode/luacode.sty
-Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
-\luacode@lines=\toks28
-\luacode@table@soft=\catcodetable20
-)
-(c:/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks29
-\verbatim@line=\toks30
-\verbatim@in@stream=\read2
+\fb@frw=\dimen171
+\fb@frh=\dimen172
+\FrameRule=\dimen173
+\FrameSep=\dimen174
 )
 (c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen173
-\pgfutil@tempdimb=\dimen174
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen175
+\pgfutil@tempdimb=\dimen176
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box55
@@ -1780,40 +1765,40 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 106.
 )
-\Gin@req@height=\dimen175
-\Gin@req@width=\dimen176
+\Gin@req@height=\dimen177
+\Gin@req@width=\dimen178
 )
 (c:/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
 de.tex
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen177
-\pgf@y=\dimen178
-\pgf@xa=\dimen179
-\pgf@ya=\dimen180
-\pgf@xb=\dimen181
-\pgf@yb=\dimen182
-\pgf@xc=\dimen183
-\pgf@yc=\dimen184
-\pgf@xd=\dimen185
-\pgf@yd=\dimen186
+\pgf@x=\dimen179
+\pgf@y=\dimen180
+\pgf@xa=\dimen181
+\pgf@ya=\dimen182
+\pgf@xb=\dimen183
+\pgf@yb=\dimen184
+\pgf@xc=\dimen185
+\pgf@yc=\dimen186
+\pgf@xd=\dimen187
+\pgf@yd=\dimen188
 \w@pgf@writea=\write3
-\r@pgf@reada=\read3
+\r@pgf@reada=\read2
 \c@pgf@counta=\count314
 \c@pgf@countb=\count315
 \c@pgf@countc=\count316
 \c@pgf@countd=\count317
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
 \pgf@sys@id@count=\count318
  (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
@@ -1839,12 +1824,12 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen187
+\pgfmath@dimen=\dimen189
 \pgfmath@count=\count321
 \pgfmath@box=\box56
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
@@ -1870,32 +1855,32 @@ etics.code.tex)
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen188
-\pgf@picmaxx=\dimen189
-\pgf@picminy=\dimen190
-\pgf@picmaxy=\dimen191
-\pgf@pathminx=\dimen192
-\pgf@pathmaxx=\dimen193
-\pgf@pathminy=\dimen194
-\pgf@pathmaxy=\dimen195
-\pgf@xx=\dimen196
-\pgf@xy=\dimen197
-\pgf@yx=\dimen198
-\pgf@yy=\dimen199
-\pgf@zx=\dimen256
-\pgf@zy=\dimen257
+\pgf@picminx=\dimen190
+\pgf@picmaxx=\dimen191
+\pgf@picminy=\dimen192
+\pgf@picmaxy=\dimen193
+\pgf@pathminx=\dimen194
+\pgf@pathmaxx=\dimen195
+\pgf@pathminy=\dimen196
+\pgf@pathmaxy=\dimen197
+\pgf@xx=\dimen198
+\pgf@xy=\dimen199
+\pgf@yx=\dimen256
+\pgf@yy=\dimen257
+\pgf@zx=\dimen258
+\pgf@zy=\dimen259
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen258
-\pgf@path@lasty=\dimen259
+\pgf@path@lastx=\dimen260
+\pgf@path@lasty=\dimen261
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen260
-\pgf@shorten@start@additional=\dimen261
+\pgf@shorten@end@additional=\dimen262
+\pgf@shorten@start@additional=\dimen263
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -1907,14 +1892,14 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen262
+\pgflinewidth=\dimen264
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen263
-\pgf@pt@y=\dimen264
-\pgf@pt@temp=\dimen265
+\pgf@pt@x=\dimen265
+\pgf@pt@y=\dimen266
+\pgf@pt@temp=\dimen267
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -1928,11 +1913,11 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen266
+\pgfarrowsep=\dimen268
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen267
+\pgf@max=\dimen269
 \pgf@sys@shading@range@num=\count324
 \pgf@shadingcount=\count325
 )
@@ -1964,8 +1949,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen268
-\pgf@nodesepend=\dimen269
+\pgf@nodesepstart=\dimen270
+\pgf@nodesepend=\dimen271
 )
 (c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -1977,10 +1962,10 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen270
-\pgffor@skip=\dimen271
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+\pgffor@iter=\dimen272
+\pgffor@skip=\dimen273
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
@@ -1989,16 +1974,16 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 de.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count326
-\pgfplotmarksize=\dimen272
+\pgfplotmarksize=\dimen274
 )
-\tikz@lastx=\dimen273
-\tikz@lasty=\dimen274
-\tikz@lastxsaved=\dimen275
-\tikz@lastysaved=\dimen276
-\tikz@lastmovetox=\dimen277
-\tikz@lastmovetoy=\dimen278
-\tikzleveldistance=\dimen279
-\tikzsiblingdistance=\dimen280
+\tikz@lastx=\dimen275
+\tikz@lasty=\dimen276
+\tikz@lastxsaved=\dimen277
+\tikz@lastysaved=\dimen278
+\tikz@lastmovetox=\dimen279
+\tikz@lastmovetoy=\dimen280
+\tikzleveldistance=\dimen281
+\tikzsiblingdistance=\dimen282
 \tikz@figbox=\box62
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
@@ -2020,57 +2005,41 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarypatterns.code.tex
-File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(c:/texlive/2026/texmf-dist/tex/latex/tikzducks/tikzlibraryducks.code.tex
+(c:/texlive/2026/texmf-dist/tex/latex/tikzducks/tikzducks.sty
+Package: tikzducks 2025/12/11 version v2.2 Draw rubber ducks in TikZ
 
-(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.t
-ex
-File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-braryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
-tex
-File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
-e.tex
-File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen281
-\pgfarrowlength=\dimen282
-\pgfarrowwidth=\dimen283
-\pgfarrowlinewidth=\dimen284
+brarypatterns.meta.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.meta.c
+ode.tex))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarydecorations.markings.code.tex
+brarydecorations.shapes.code.tex
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.code.tex
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
 ex
-\pgfdecoratedcompleteddistance=\dimen285
-\pgfdecoratedremainingdistance=\dimen286
-\pgfdecoratedinputsegmentcompleteddistance=\dimen287
-\pgfdecoratedinputsegmentremainingdistance=\dimen288
-\pgf@decorate@distancetomove=\dimen289
+\pgfdecoratedcompleteddistance=\dimen283
+\pgfdecoratedremainingdistance=\dimen284
+\pgfdecoratedinputsegmentcompleteddistance=\dimen285
+\pgfdecoratedinputsegmentremainingdistance=\dimen286
+\pgf@decorate@distancetomove=\dimen287
 \pgf@decorate@repeatstate=\count335
-\pgfdecorationsegmentamplitude=\dimen290
-\pgfdecorationsegmentlength=\dimen291
+\pgfdecorationsegmentamplitude=\dimen288
+\pgfdecorationsegmentlength=\dimen289
 )
 \tikz@lib@dec@box=\box66
 )
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
-orations.markings.code.tex))
+orations.shapes.code.tex))
 (c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@layerbox@background=\box67
-\pgf@layerboxsaved@background=\box68
-)
-\c@luaDraw@progcount=\count336
-)
+brarydecorations.pathmorphing.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathmorphing.code.tex))))
 (c:/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
@@ -2088,7 +2057,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip66
 \f@nch@widthC=\skip67
 \f@nch@widthR=\skip68
-\@temptokenb=\toks43
+\@temptokenb=\toks40
 )
 (c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
@@ -2117,15 +2086,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count337
+\c@section@level=\count336
 )
 (c:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen292
-\Hy@linkcounter=\count338
-\Hy@pagecounter=\count339
+\@linkdim=\dimen290
+\Hy@linkcounter=\count337
+\Hy@pagecounter=\count338
 
 (c:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
@@ -2133,7 +2102,7 @@ File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 (c:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count340
+\Hy@SavedSpaceFactor=\count339
 
 (c:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
@@ -2146,14 +2115,14 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count341
+\c@Hy@tempcnt=\count340
 
 (c:/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen293
+\XeTeXLinkMargin=\dimen291
 
 (c:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -2162,9 +2131,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count342
-\Field@Width=\dimen294
-\Fld@charsize=\dimen295
+\Fld@menulength=\count341
+\Field@Width=\dimen292
+\Fld@charsize=\dimen293
 Package hyperref Info: Hyper figures OFF on input line 6084.
 Package hyperref Info: Link nesting OFF on input line 6089.
 Package hyperref Info: Hyper index ON on input line 6092.
@@ -2172,16 +2141,16 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring OFF on input line 6104.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count343
-\c@Item=\count344
-\c@Hfootnote=\count345
+\Hy@abspage=\count342
+\c@Item=\count343
+\c@Hfootnote=\count344
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (c:/texlive/2026/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2026-01-29 v7.01p Hyperref driver for luaTeX
-\Fld@listcount=\count346
-\c@bookmark@seq@number=\count347
+\Fld@listcount=\count345
+\c@bookmark@seq@number=\count346
 
 (c:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -2194,31 +2163,31 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip69
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 56.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 56.
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
 
 (c:/texlive/2026/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count348
-\lst@gtempboxa=\box69
-\lst@token=\toks44
-\lst@length=\count349
-\lst@currlwidth=\dimen296
-\lst@column=\count350
-\lst@pos=\count351
-\lst@lostspace=\dimen297
-\lst@width=\dimen298
-\lst@newlines=\count352
-\lst@lineno=\count353
-\lst@maxwidth=\dimen299
+\lst@mode=\count347
+\lst@gtempboxa=\box67
+\lst@token=\toks41
+\lst@length=\count348
+\lst@currlwidth=\dimen294
+\lst@column=\count349
+\lst@pos=\count350
+\lst@lostspace=\dimen295
+\lst@width=\dimen296
+\lst@newlines=\count351
+\lst@lineno=\count352
+\lst@maxwidth=\dimen297
 
 (c:/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 (c:/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count354
-\lst@skipnumbers=\count355
-\lst@framebox=\box70
+\c@lstnumber=\count353
+\lst@skipnumbers=\count354
+\lst@framebox=\box68
 )
 (c:/texlive/2026/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -2230,14 +2199,14 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
 Package: luatexbase-cctb 2015/10/04 v1.3 luatexbase interface to LuaTeX (legacy
  subpackage) 
 )
-\ltj@lst@japanese@min=\count356
-\CatcodeTableLTJlistings=\catcodetable21
-\ltj@lst@frame@lslimit@h=\dimen300
-\ltj@lst@frame@lslimit@d=\dimen301
+\ltj@lst@japanese@min=\count355
+\CatcodeTableLTJlistings=\catcodetable20
+\ltj@lst@frame@lslimit@h=\dimen298
+\ltj@lst@frame@lslimit@d=\dimen299
 
 (c:/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\lst@WFtoken=\toks45
+\lst@WFtoken=\toks42
 \lst@WF=\write4
 ))
 ==> First Aid for listings.sty no longer applied!
@@ -2254,49 +2223,49 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 (c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks46
+\enitkv@toks@=\toks43
 \labelindent=\skip70
-\enit@outerparindent=\dimen302
-\enit@toks=\toks47
-\enit@inbox=\box71
-\enit@count@id=\count357
-\enitdp@description=\count358
+\enit@outerparindent=\dimen300
+\enit@toks=\toks44
+\enit@inbox=\box69
+\enit@count@id=\count356
+\enitdp@description=\count357
 )
-LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 109.
+LaTeX Font Info:    Redeclaring symbol font `CJKmath' on input line 113.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `normal'
 (Font)                  LTJY3/song/m/n --> LTJY3/NotoSerifCJKSC(0)/m/n on input
- line 109.
+ line 113.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/song/b/n --> LTJY3/NotoSerifCJKSC(0)/m/n on input
- line 109.
+ line 113.
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
 (Font)                  LTJY3/NotoSerifCJKSC(0)/m/n --> LTJY3/NotoSerifCJKSC(0)
-/b/n on input line 109.
+/b/n on input line 113.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for LTJY3/song/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -2304,67 +2273,67 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 109.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 109.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 109.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 109.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 109.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 109.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 109.
-LaTeX Font Info:    Redeclaring math accent \check on input line 109.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 109.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 109.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 109.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 109.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 113.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 113.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 113.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 113.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 113.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 113.
+LaTeX Font Info:    Redeclaring math accent \check on input line 113.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 113.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 113.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 113.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 109.
+(Font)              `operators' in the math version `normal' on input line 113.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LinLibertine(0)/m/n on input line 10
-9.
+(Font)                  OT1/cmr/m/n --> TU/LinLibertine(0)/m/n on input line 11
+3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 109.
+(Font)              `operators' in the math version `bold' on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/m/n on input line 1
-09.
+13.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/m/n on in
-put line 109.
+put line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LinLibertine(0)/m/it on input line 
-109.
+113.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LinLibertine(0)/b/n on input line 1
-09.
+13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/LinBiolinum(0)/m/n on input line 10
-9.
+(Font)                  OT1/cmss/m/n --> TU/LinBiolinum(0)/m/n on input line 11
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 109.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LinLibertine(0)/m/n --> TU/LinLibertine(0)/b/n on in
-put line 109.
+put line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/LinLibertine(0)/b/it on input line
- 109.
+ 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LinBiolinum(0)/b/n on input line 1
-09.
+13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 109.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 113.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2402,17 +2371,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count359
-\scratchdimen=\dimen303
-\scratchbox=\box72
-\nofMPsegments=\count360
-\nofMParguments=\count361
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count362
-\MPscratchDim=\dimen304
-\MPnumerator=\count363
-\makeMPintoPDFobject=\count364
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count358
+\scratchdimen=\dimen301
+\scratchbox=\box70
+\nofMPsegments=\count359
+\nofMParguments=\count360
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count361
+\MPscratchDim=\dimen302
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
+\everyMPtoPDFconversion=\toks46
 ) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2422,53 +2391,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 109.
+Package hyperref Info: Link coloring ON on input line 113.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 
 \openout5 = main.out
-\c@lstlisting=\count365
+\c@lstlisting=\count364
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 119.
+(Font)              scaled to size 17.28pt on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 119.
+(Font)              scaled to size 20.74pt on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 119.
+(Font)              scaled to size 20.74pt on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 119.
+(Font)              scaled to size 14.4pt on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 119.
+(Font)              scaled to size 12.0pt on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 119.
+(Font)              <20.74> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 119.
+(Font)              <14.4> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 119.
+(Font)              <12> on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 119.
+(Font)              scaled to size 10.0pt on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 119.
+(Font)              scaled to size 7.0pt on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 119.
+(Font)              <7> on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 119.
+(Font)              scaled to size 8.0pt on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 119.
+(Font)              scaled to size 6.0pt on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 119.
+(Font)              <8> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 119.
+(Font)              <6> on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 119.
+(Font)              scaled to size 14.4pt on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 119.
+(Font)              scaled to size 5.0pt on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 119.
+(Font)              <5> on input line 123.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 119.
+(Font)              scaled to size 9.0pt on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 119.
+(Font)              <9> on input line 123.
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "Noto Serif CJK SC/BI" (it
@@ -2500,17 +2469,17 @@ iao;"
 (load cache: extra_lmmono9-regular.luc)
 1
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 124.
+(Font)              scaled to size 10.95pt on input line 128.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/sl' in size <10.95> not av
 ailable
 (Font)              Font shape `TU/LinLibertine(0)/m/it' tried instead on input
- line 141.
+ line 145.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 141.
+(Font)              scaled to size 10.95pt on input line 145.
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(0)/m/sl' in size <10.95> n
 ot available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(0)/m/it' tried instead on 
-input line 141.
+input line 145.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.71603pt, for example:
@@ -2518,15 +2487,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.71603pt}.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 145.
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 36.80052pt, for example:
+(fancyhdr)                \setlength{\footskip}{36.80052pt}.
 
 [1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (11.19592pt too wide) in paragraph at lines 141--142
+Overfull \hbox (11.19592pt too wide) in paragraph at lines 145--146
 []|\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 如 |果 |你 |已 |经 |仔 |细 |阅 |
 读 |了 [][]\TU/LinLibertine(0)/m/n/10.95 install-latex-guide-zh-cn[][] |\LTJY
 3/NotoSerifCJKSC(1)/m/n/10.95 并 |且 |顺 |利 |安 |装 |了 \TU/LinLibertin
@@ -2539,17 +2510,17 @@ Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.(load cache: extr
 a_lmmono8-regular.luc)
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 152.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 156.
 (load cache: extra_lmmonolt10-bold.luc)
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <10> not 
 available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 152.
+nput line 156.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<open-terminal.png, id=41, 1104.125pt x 594.22pt>
-File: open-terminal.png Graphic file (type png)
-<use open-terminal.png>
-Package luatex.def Info: open-terminal.png  used on input line 171.
+<./figures/open-terminal.png, id=41, 1104.125pt x 594.22pt>
+File: ./figures/open-terminal.png Graphic file (type png)
+<use ./figures/open-terminal.png>
+Package luatex.def Info: ./figures/open-terminal.png  used on input line 175.
 (luatex.def)             Requested size: 362.77264pt x 195.2409pt.
 Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
 de;script=latn;language=dflt;+tlig;+tnum;+onum;!
@@ -2564,10 +2535,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 35.6626pt, for example:
+(fancyhdr)                \setlength{\footskip}{35.6626pt}.
 
-[2<./open-terminal.png>]
+[2<./figures/open-terminal.png>]
 (c:/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -2602,19 +2573,20 @@ Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<vscode-terminal.png, id=69, 1045.40562pt x 595.22375pt>
-File: vscode-terminal.png Graphic file (type png)
-<use vscode-terminal.png>
-Package luatex.def Info: vscode-terminal.png  used on input line 189.
+<./figures/vscode-terminal.png, id=69, 1045.40562pt x 595.22375pt>
+File: ./figures/vscode-terminal.png Graphic file (type png)
+<use ./figures/vscode-terminal.png>
+Package luatex.def Info: ./figures/vscode-terminal.png  used on input line 193.
+
 (luatex.def)             Requested size: 483.69687pt x 275.40474pt.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<compiling.png, id=70, 1565.85pt x 1102.1175pt>
-File: compiling.png Graphic file (type png)
-<use compiling.png>
-Package luatex.def Info: compiling.png  used on input line 203.
+<./figures/compiling.png, id=70, 1565.85pt x 1102.1175pt>
+File: ./figures/compiling.png Graphic file (type png)
+<use ./figures/compiling.png>
+Package luatex.def Info: ./figures/compiling.png  used on input line 207.
 (luatex.def)             Requested size: 483.69687pt x 340.44208pt.
 
 
@@ -2626,18 +2598,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 40.21492pt, for example:
+(fancyhdr)                \setlength{\footskip}{40.21492pt}.
 
 [3
 Missing character: There is no 」 (U+300D) in font [LinLibertine_R.otf]:mode=no
 de;script=latn;language=dflt;+tlig;+tnum;+onum;!
-<./vscode-terminal.png>]
+<./figures/vscode-terminal.png>]
 2
-<LW-install.png, id=84, 1637.11626pt x 1142.2675pt>
-File: LW-install.png Graphic file (type png)
-<use LW-install.png>
-Package luatex.def Info: LW-install.png  used on input line 216.
+<./figures/LW-install.png, id=84, 1637.11626pt x 1142.2675pt>
+File: ./figures/LW-install.png Graphic file (type png)
+<use ./figures/LW-install.png>
+Package luatex.def Info: ./figures/LW-install.png  used on input line 220.
 (luatex.def)             Requested size: 447.42107pt x 312.18114pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2648,20 +2620,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 44.97292pt, for example:
+(fancyhdr)                \setlength{\footskip}{44.97292pt}.
 
-[4<./compiling.png>]
+[4<./figures/compiling.png>]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 219.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 223.
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <10.95> n
 ot available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 219.
-<TeX-panel.png, id=90, 896.85063pt x 313.67188pt>
-File: TeX-panel.png Graphic file (type png)
-<use TeX-panel.png>
-Package luatex.def Info: TeX-panel.png  used on input line 222.
+nput line 223.
+<./figures/TeX-panel.png, id=90, 896.85063pt x 313.67188pt>
+File: ./figures/TeX-panel.png Graphic file (type png)
+<use ./figures/TeX-panel.png>
+Package luatex.def Info: ./figures/TeX-panel.png  used on input line 226.
 (luatex.def)             Requested size: 459.51054pt x 160.7124pt.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
@@ -2675,10 +2647,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 43.39862pt, for example:
+(fancyhdr)                \setlength{\footskip}{43.39862pt}.
 
-[5<./LW-install.png><./TeX-panel.png>]
+[5<./figures/LW-install.png><./figures/TeX-panel.png>]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
@@ -2692,8 +2664,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 34.96082pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.96082pt}.
 
 [6]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
@@ -2718,23 +2690,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 37.08531pt, for example:
+(fancyhdr)                \setlength{\footskip}{37.08531pt}.
 
 [7]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-<settings-json.png, id=187, 1284.8pt x 630.85687pt>
-File: settings-json.png Graphic file (type png)
-<use settings-json.png>
-Package luatex.def Info: settings-json.png  used on input line 388.
+<./figures/settings-json.png, id=188, 1284.8pt x 630.85687pt>
+File: ./figures/settings-json.png Graphic file (type png)
+<use ./figures/settings-json.png>
+Package luatex.def Info: ./figures/settings-json.png  used on input line 392.
 (luatex.def)             Requested size: 483.69687pt x 237.50447pt.
-<settings-panel.png, id=188, 627.84563pt x 590.70688pt>
-File: settings-panel.png Graphic file (type png)
-<use settings-panel.png>
-Package luatex.def Info: settings-panel.png  used on input line 394.
+<./figures/settings-panel.png, id=189, 627.84563pt x 590.70688pt>
+File: ./figures/settings-panel.png Graphic file (type png)
+<use ./figures/settings-panel.png>
+Package luatex.def Info: ./figures/settings-panel.png  used on input line 398.
 (luatex.def)             Requested size: 457.09708pt x 430.05872pt.
 
 
@@ -2746,10 +2718,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 35.40337pt, for example:
+(fancyhdr)                \setlength{\footskip}{35.40337pt}.
 
-[8<./settings-json.png>]
+[8<./figures/settings-json.png>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -2762,22 +2734,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 36.17468pt, for example:
+(fancyhdr)                \setlength{\footskip}{36.17468pt}.
 
-[9<./settings-panel.png>]
+[9<./figures/settings-panel.png>]
 Removing  `ltj.listings_unicode' from `process_input_buffer'.
-Overfull \hbox (28.03676pt too wide) in paragraph at lines 446--447
+Overfull \hbox (28.03676pt too wide) in paragraph at lines 450--451
 |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 的 |原 |因 |是 |界 |面 |右 |上 |
 角 |的 [] |绿 |色 |三 |角 [] |按 |钮 |\LTJY3/NotoSerifCJKSC(1)/bx/n/10.
 95 默 |认 |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 通 |过 |键 |值 |对 \TU/lmt
 t/m/n/10.95 latex-workshop.latex.recipe.default="first"
  []
 
-<settings-config.png, id=221, 666.49pt x 575.14874pt>
-File: settings-config.png Graphic file (type png)
-<use settings-config.png>
-Package luatex.def Info: settings-config.png  used on input line 451.
+<./figures/settings-config.png, id=222, 666.49pt x 575.14874pt>
+File: ./figures/settings-config.png Graphic file (type png)
+<use ./figures/settings-config.png>
+Package luatex.def Info: ./figures/settings-config.png  used on input line 455.
+
 (luatex.def)             Requested size: 483.69687pt x 417.41534pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2788,11 +2761,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 44.97292pt, for example:
+(fancyhdr)                \setlength{\footskip}{44.97292pt}.
 
 [10]
-Overfull \hbox (18.45845pt too wide) in paragraph at lines 454--455
+Overfull \hbox (18.45845pt too wide) in paragraph at lines 458--459
 []|\LTJY3/NotoSerifCJKSC(1)/bx/n/10.95 永 |远 |要 |牢 |记\TU/LinLibertine(
 0)/m/n/10.95 : |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 点 |击 \TU/LinLibertine(0)
 /m/n/10.95 La-TeX Work-shop |\LTJY3/NotoSerifCJKSC(1)/m/n/10.95 提 [] |的 [] 
@@ -2800,10 +2773,10 @@ Overfull \hbox (18.45845pt too wide) in paragraph at lines 454--455
 TU/LinLibertine(0)/m/n/10.95 : [] [] \TU/lmtt/b/n/10.95 settings.json
  []
 
-<error-panel.png, id=260, 2569.6pt x 1302.8675pt>
-File: error-panel.png Graphic file (type png)
-<use error-panel.png>
-Package luatex.def Info: error-panel.png  used on input line 459.
+<./figures/error-panel.png, id=261, 2569.6pt x 1302.8675pt>
+File: ./figures/error-panel.png Graphic file (type png)
+<use ./figures/error-panel.png>
+Package luatex.def Info: ./figures/error-panel.png  used on input line 463.
 (luatex.def)             Requested size: 483.69687pt x 245.2413pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2814,19 +2787,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 35.40337pt, for example:
+(fancyhdr)                \setlength{\footskip}{35.40337pt}.
 
-[11<./settings-config.png>]
+[11<./figures/settings-config.png>]
 3
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 464.
+(Font)              scaled to size 12.0pt on input line 468.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 469.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 473.
 LaTeX Font Info:    Font shape `LTJY3/NotoSerifCJKSC(1)/bx/n' in size <12> not 
 available
 (Font)              Font shape `LTJY3/NotoSerifCJKSC(1)/b/n' tried instead on i
-nput line 469.
+nput line 473.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.71603pt, for example:
@@ -2836,16 +2809,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 35.04355pt, for example:
+(fancyhdr)                \setlength{\footskip}{35.04355pt}.
 
-[12<./error-panel.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 491.
-<editors.png, id=278, 422.07687pt x 258.9675pt>
-File: editors.png Graphic file (type png)
-<use editors.png>
-Package luatex.def Info: editors.png  used on input line 499.
+[12<./figures/error-panel.png>]
+<./figures/editors.png, id=279, 422.07687pt x 258.9675pt>
+File: ./figures/editors.png Graphic file (type png)
+<use ./figures/editors.png>
+Package luatex.def Info: ./figures/editors.png  used on input line 503.
 (luatex.def)             Requested size: 423.6243pt x 259.9231pt.
 
 
@@ -2857,10 +2828,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 35.93875pt, for example:
+(fancyhdr)                \setlength{\footskip}{35.93875pt}.
 
-[13<./editors.png>]
+[13<./figures/editors.png>]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
@@ -2878,8 +2849,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 43.39862pt, for example:
+(fancyhdr)                \setlength{\footskip}{43.39862pt}.
 
 [14]
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
@@ -2899,8 +2870,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 38.22324pt, for example:
-(fancyhdr)                \setlength{\footskip}{38.22324pt}.
+(fancyhdr)                Make it at least 40.04712pt, for example:
+(fancyhdr)                \setlength{\footskip}{40.04712pt}.
 
 [15] (./main.aux)
  ***********
@@ -2912,16 +2883,16 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41002 strings out of 476076
- 381520,1648299 words of node,token memory allocated
+ 41859 strings out of 475900
+ 381532,1648299 words of node,token memory allocated
  766 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 123 attribute, 56 glue_spe
 c, 17 attribute_list, 2 write, 6 user_defined, 1 pdf_action nodes
-   avail lists: 1:4,2:65925,3:1069,4:11871,5:3109,6:101,7:7474,8:57,9:11021,10:2
+   avail lists: 1:6,2:72018,3:1168,4:11987,5:3109,6:101,7:7657,8:58,9:11045,10:2
 1,11:488
- 62380 multiletter control sequences out of 65536+600000
+ 63417 multiletter control sequences out of 65536+600000
  134 fonts using 323712759 bytes
- 117i,17n,164p,1185b,1934s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,19n,164p,7110b,2072s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf><c:/tex
 live/2026/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf><c:/texlive/20
 26/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf><c:/texlive/2026/texm
@@ -2935,10 +2906,10 @@ f-dist/fonts/truetype/public/arphic-ttf/gkai00mp.ttf><c:/texlive/2026/texmf-dist
 1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb>
-Output written on main.pdf (15 pages, 1824622 bytes).
+Output written on main.pdf (15 pages, 1828682 bytes).
 
-PDF statistics: 409 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 410 PDF objects out of 1000 (max. 8388607)
  334 compressed objects within 4 object streams
  195 named destinations out of 1000 (max. 1048576)
- 40 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 45 words of extra memory for PDF output out of 10000 (max. 100000000)
 
